@@ -7,6 +7,8 @@ body {
 	font-weight: 400;
 }
 .logo{
+	height: 10%;
+	width: 40%;
 	float: left;
 	padding: 1%;
 }
@@ -18,28 +20,39 @@ body {
 }
 .login{
 	float: right;
+	width:30%;
+	height:10%;
+	background-color: #306CB4;
+	transform: skew(-10deg);
 }
 .login ul{
+	transform: skew(10deg);
 	margin: 0;
-	padding: 0;
+	padding-top: 10%;
+	padding-left: 30%;
 	list-style: none;
 }
 .login li{
 	display: inline-block;
-	padding-top: 25px;
 }
 .login a{
-	color: #000;
+	color: #FFF;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 40px;
 }
+.login a:hover{
+	color: #000;
+}
+
 .navigation{
+	transform: skew(-10deg);
 	background : #306CB4;
 	float: right;
 	width: 100%;
 	margin-bottom: 1%;
 }
 .navigation ul{
+	transform: skew(10deg);
 	margin: 0;
 	padding: 0;
 	list-style: none;
