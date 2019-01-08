@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>MyTime - Login</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="Design.css" type="text/css">
+	</head>
+	<body>
+		<div class="header">
+			<img src="Bilder/MyTimeLogo.jpg" alt="MyTime" title="MyTime" class="logo" height="auto" width="auto">
+				<div class="login">
+					<ul>
+						<li><a href="MyTime - Login.html">Login</a></li>
+					</ul>
+				</div>
+		</div>
+		<div class="navigation">
+			<ul>
+				<li><a href="MyTime - New Plan.html">New Plan</a></li>
+				<li><a href="MyTime - My Plans.html">My Plans</a></li>
+				<li><a href="MyTime - Angebot.html">Angebot</a></li>
+				<li><a href="MyTime - System.html">System</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<h1> Sing UP </h1>
+			<fieldset>
+				<form action="http://hshl.webpraktikum.net/05_aufgabe_02.php" method="get">
+					Anrede: <input name="anrede" list="anrlist" tabindex="1" required>
+					<datalist id="anrlist">
+						<option value="Herr" />
+						<option value="Frau" />
+						<option value="Etwas anderes" />
+					</datalist>
+					<p>
+					Name: <input name="name" type="text" size="20" tabindex="2" required>
+					<p>
+					Vorname: <input name="vorname" type="text" size="20" tabindex="3" required>
+					<p>
+					E-Mail: <input name="email" type="email" size="20" tabindex="4" required>
+					<p>
+					PLZ: <input name="plz" type="number" size="5" maxlength="5" tabindex="5" required onchange="if(isNAN(this.value)) return false;">
+					<p>
+					Ort: <input name="ort" type="text" size="20" tabindex="6" required>
+					<p>
+					<input type="submit" value="Senden" tabindex="7">
+					<br>
+					<input type="reset" value="Reset" tabindex="8">
+				</form>
+			</fieldset>	
+		</div>
+		<div class="footer">
+			Footer
+		</div>
+	</body>
+</html>
