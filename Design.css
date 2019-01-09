@@ -5,29 +5,29 @@ body {
 	font-weight: 400;
 }
 .logo{
-	height: 10%;
-	width: 40%;
+	height: 100px;
+	width: 360px;
 	float: left;
 	padding: 1%;
 }
 .header{
 	padding:1%;
 	width: 98%;
-	margin: 0 auto;
+	margin: 0;
 	background: #F2F3F6; 
 }
 .login{
 	float: right;
-	width:30%;
-	height:10%;
+	width: 160px;
+	height: 60px;
 	background-color: #306CB4;
 	transform: skew(-10deg);
 }
 .login ul{
 	transform: skew(10deg);
 	margin: 0;
-	padding-top: 10%;
-	padding-left: 30%;
+	padding-top: 5px;
+	padding-left: 32px;
 	list-style: none;
 }
 .login li{
