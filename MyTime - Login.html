@@ -23,28 +23,32 @@
 			</ul>
 		</div>
 		<div class="content">
-			<h1> Sing UP </h1>
+			<h1> Sign Up </h1>
 			<fieldset>
 				<form action="http://hshl.webpraktikum.net/05_aufgabe_02.php" method="get">
-					Anrede: <input name="anrede" list="anrlist" tabindex="1" required>
-					<datalist id="anrlist">
-						<option value="Herr" />
-						<option value="Frau" />
-						<option value="Etwas anderes" />
-					</datalist>
+					<label for="anrlist">Anrede:</label>
+					<select id="anrlist" tabindex="1" required>
+						<option value=""> Wählen Sie aus </option>
+						<option value="Herr"> Herr </option>
+						<option value="Frau"> Frau </option>
+						<option value="Inter"> Inter </option>
+					</select>
 					<p>
-					Name: <input name="name" type="text" size="20" tabindex="2" required>
+					Name: <br> <input name="name" type="text" size="20" tabindex="2" required>
 					<p>
-					Vorname: <input name="vorname" type="text" size="20" tabindex="3" required>
+					Vorname: <br> <input name="vorname" type="text" size="20" tabindex="3" required>
 					<p>
-					E-Mail: <input name="email" type="email" size="20" tabindex="4" required>
+					E-Mail: <br> <input name="email" type="email" size="20" tabindex="4" required>
 					<p>
-					PLZ: <input name="plz" type="number" size="5" maxlength="5" tabindex="5" required onchange="if(isNAN(this.value)) return false;">
+					PLZ: <br> <input name="plz" type="number" size="5" maxlength="5" tabindex="5" required onchange="if(isNAN(this.value)) return false;">
 					<p>
-					Ort: <input name="ort" type="text" size="20" tabindex="6" required>
+					Ort: <br> <input name="ort" type="text" size="20" tabindex="6" required>
+					<p>
+					Passwort: <br> <input name="password" type="password" size="20" tabindex="7" required>
+					<p>
+					Passwort wiederholen: <br> <input name="againpassword" type="password" size="20" tabindex="8" required>
 					<p>
 					<input type="submit" value="Senden" tabindex="7">
-					<br>
 					<input type="reset" value="Reset" tabindex="8">
 				</form>
 			</fieldset>	

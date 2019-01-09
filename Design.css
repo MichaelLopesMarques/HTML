@@ -1,7 +1,5 @@
 body {
 	margin: 0;
-	margin-left: 1%;
-	margin-right: 1%;
 	background: #F2F3F6;
 	font-family: 'Daggersquare';
 	font-weight: 400;
@@ -48,7 +46,7 @@ body {
 	transform: skew(-10deg);
 	background : #306CB4;
 	float: right;
-	width: 100%;
+	width: 98%;
 	margin-bottom: 1%;
 }
 .navigation ul{
@@ -90,4 +88,10 @@ body {
     color: #000; 
     background-color: #306CB4;
     clear: both;
+}
+input[type=text], input[type=email], input[type=number], input[type=password]{
+	width: 300px;
+}
+.logo, .header, .login, .navigation, .content {
+	margin-right: 1%;
 }
