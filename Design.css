@@ -80,7 +80,13 @@ body {
 	z-index: 1;
 }
 .navigation ul li ul li{
+	margin: 0;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	padding-left: 0;
+	padding-right: 0;
 	float: none;
+	display: block;
 }
 .navigation ul li:hover ul{
 	display: block;
