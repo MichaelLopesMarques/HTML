@@ -6,8 +6,7 @@ body {
 	font-style: italic;
 }
 .logo{
-	height: 100px;
-	width: 360px;
+	height: 20%;
 	float: left;
 	padding-bottom: 1%;
 }
@@ -19,16 +18,16 @@ body {
 }
 .login{
 	float: right;
-	width: 160px;
-	height: 60px;
+	width: 10%;
+	height: 20%;
 	background-color: #306CB4;
 	transform: skew(-10deg);
 }
 .login ul{
-	transform: skew(10deg);
+	transform: skew(20deg);
 	margin: 0;
 	padding-top: 5px;
-	padding-left: 32px;
+	padding-left: 15%;
 	list-style: none;
 }
 .login li{
