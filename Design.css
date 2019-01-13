@@ -71,8 +71,9 @@ body {
 	font-size: 20px;
 }
 .navigation a:hover{
-	color: #000;
-	background-color: #444;
+    color: #FFFFFF;
+	text-shadow: 2px 2px 10px #00063D;
+    background-color: #1F4A7C;
 }
 .navigation ul li ul{
 	margin-top: 10px;
@@ -98,7 +99,7 @@ body {
 .navigation ul li ul li:hover{
 	display: block;
 	color: #000;
-	background-color: #444;
+	background-color: #1F4A7C;
 }
 .fitness1{
 	float: left;
