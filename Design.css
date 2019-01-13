@@ -94,18 +94,20 @@ body {
 .navigation ul li:hover ul{
 	display: block;
 }
+.navigation ul li ul li:hover{
+	display: block;
+	color: #000;
+	background-color: #444;
+}
 .fitness1{
 	float: left;
-	padding-left: 20px;
-
-	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	width: 100%;
 }
 .content{
 	margin: 0;
 	margin-bottom: 1%;
 	float: left;
 }
-
 .footer{
 	position: relative;
     width: 100%;
@@ -120,6 +122,6 @@ body {
 input[type=text], input[type=email], input[type=number], input[type=password]{
 	width: 300px;
 }
-.logo, .header, .login, .navigation, .content {
+.logo, .header, .login, .navigation {
 	margin-right: 1%;
 }
