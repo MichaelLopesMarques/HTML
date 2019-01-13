@@ -18,28 +18,10 @@ body {
 	background: #F2F3F6; 
 }
 .login{
+	width: 25%;
 	float: right;
-	width: 10%;
-	background-color: #306CB4;
-	transform: skew(-10deg);
-}
-.login ul{
-	transform: skew(20deg);
-	margin: 0;
-	padding-top: 5px;
-	padding-left: 15%;
-	list-style: none;
-}
-.login li{
-	display: inline-block;
-}
-.login a{
-	color: #FFF;
-	text-decoration: none;
-	font-size: 40px;
-}
-.login a:hover{
-	color: #000;
+	padding-bottom: 1%;
+	padding-left: 1%;
 }
 
 .navigation{
@@ -50,6 +32,7 @@ body {
 	float: right;
 	width: 98%;
 	margin-bottom: 1%;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
 }
 .navigation ul{
 	transform: skew(20deg);
@@ -81,7 +64,7 @@ body {
 	display: none;
 	position: absolute;
 	background : rgba(48,108,180,0.80);
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
 	z-index: 1;
 }
 .navigation ul li ul li{
