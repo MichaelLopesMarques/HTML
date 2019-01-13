@@ -46,13 +46,13 @@ body {
 	transform: skew(-10deg);
 	position: sticky;
 	top: 10px;
-	background : #306CB4;
+	background : rgba(48,108,180,0.80);
 	float: right;
 	width: 98%;
 	margin-bottom: 1%;
 }
 .navigation ul{
-	transform: skew(10deg);
+	transform: skew(20deg);
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -75,10 +75,11 @@ body {
 	background-color: #444;
 }
 .navigation ul li ul{
+	margin-top: 10px;
 	transform: skew(0deg);
 	display: none;
 	position: absolute;
-	background : #306CB4;
+	background : rgba(48,108,180,0.80);
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
 	z-index: 1;
 }
