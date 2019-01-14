@@ -69,10 +69,7 @@ body {
 }
 .navigation ul li ul li{
 	margin: 0;
-	padding-top: 10%;
-	padding-bottom: 6%;
-	padding-left: 0;
-	padding-right: 0;
+	padding-top: auto;
 	float: none;
 	display: block;
 }
@@ -83,6 +80,12 @@ body {
 	display: block;
 	color: #000;
 	background-color: #1F4A7C;
+}
+.goButton{
+	position: absolute;
+	top: 1000px;
+	left: calc(50% - 265px/2);
+	z-index: 1;
 }
 .fitness1{
 	float: left;
