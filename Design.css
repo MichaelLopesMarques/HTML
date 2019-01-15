@@ -33,6 +33,7 @@ body {
 	width: 98%;
 	margin-bottom: 1%;
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	z-index: 2;
 }
 .navigation ul{
 	transform: skew(20deg);
@@ -65,7 +66,6 @@ body {
 	position: absolute;
 	background : rgba(48,108,180,0.80);
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
-	z-index: 1;
 }
 .navigation ul li ul li{
 	margin: 0;
@@ -83,24 +83,53 @@ body {
 }
 .goButton{
 	position: absolute;
-	top: 1000px;
+	top: 80%;
 	left: calc(50% - 265px/2);
+	filter: drop-shadow(2px 2px 10px #00063D);
 	z-index: 1;
+	transition: 0.3s;
+}
+.goButton:hover{
+	transform: scale(1.03);
 }
 .fitness1{
-	float: left;
-	width: 100%;
+	width: 95%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 2%;
 }
 .fitness2{
+	position: relative;
 	height: 1000px;
 	width: auto;
 	clip-path: polygon(0 0, 80% 0, 65% 100%, 0% 100%);
 }
 
 .fitness3{
+	position: absolute;
 	height: 1000px;
 	width: auto;
 	clip-path: polygon(70% 0, 100% 0, 100% 100%, 55% 100%);
+}
+.Text1{
+	width: 100%;
+	top: 20%;
+	position: absolute;
+	color: #F2F3F6;
+	text-align: center;
+	text-shadow: 2px 2px 10px #00063D;
+	font-size: 7rem;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Text2 {
+	top: -20%;
+	padding-top: 12rem;
+	font-size: 7rem;
+	font-weight: 100;
 }
 .content{
 	margin: 0;
