@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background: #F2F3F6;
+	background: #F4F5F8;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 800;
 	font-style: italic;
@@ -15,7 +15,6 @@ body {
 	padding:1%;
 	width: 98%;
 	margin: 0;
-	background: #F2F3F6; 
 }
 .login{
 	width: 25%;
@@ -131,6 +130,46 @@ body {
 	font-size: 7rem;
 	font-weight: 100;
 }
+.Ueberschrift{
+	width: 100%;
+	text-align: center;
+	margin-top: -3%;
+	font-weight: 600;
+	font-size: 620%;
+	font-style: normal;
+	color: #000;
+	line-height: 0%;
+}
+.fitnesssteigerung{
+	position: relative;
+	width: 30%;
+	margin-left: 15%;
+	margin-top: 5%;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	border: solid 8px rgb(48,108,180);
+}
+.ausdauertraining{
+	position: relative;
+	display: block;
+	float: right;
+	width: 30%;
+	margin-top: 5%;
+	margin-right: 15%;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	border: solid 8px rgb(48,108,180);
+}
+.bildersonstiges{
+	margin-top: -1%;
+}
+.fitnesstext1{
+	line-height: 0.2em;
+	margin-top: -0.3%;
+	background: rgb(48,108,180);
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .content{
 	margin: 0;
 	margin-bottom: 1%;
@@ -138,6 +177,7 @@ body {
 }
 .footer{
 	position: relative;
+	float: right;
     width: 100%;
     height: 15%;
     right: 0;
