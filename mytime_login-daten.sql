@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 15. Jan 2019 um 17:25
+-- Erstellungszeit: 15. Jan 2019 um 17:27
 -- Server-Version: 10.1.37-MariaDB
 -- PHP-Version: 7.2.12
 
@@ -28,7 +28,6 @@ SET time_zone = "+00:00";
 -- Tabellenstruktur für Tabelle `users`
 --
 
-DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` int(50) NOT NULL,
   `nachname` varchar(255) NOT NULL,
