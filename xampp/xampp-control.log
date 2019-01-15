@@ -1,0 +1,169 @@
+12:34:51  [main] 	Initialisere Control Panel
+12:34:51  [main] 	Windows Version:  Enterprise  64-bit
+12:34:51  [main] 	XAMPP Version: 7.2.12
+12:34:51  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+12:34:51  [main] 	Dein Benutzerprofil besitzt keine Administratorenrechte! Das reicht aus für die meisten
+12:34:51  [main] 	Anwendungsfunktionen, aber wann immer du etwas mit Windows-Diensten tun möchtest,
+12:34:51  [main] 	wird eine Sicherheitsabfrage erscheinen oder etwas wird garnicht erst funktionieren!
+12:34:51  [main] 	Also denke daran diese Anwendung mit Administratorrechten zu starten!
+12:34:51  [main] 	XAMPP Installationsverzeichnis: "g:\php\xampp\"
+12:34:51  [main] 	Voraussetzungen werden geprüft
+12:34:52  [main] 	Alle Voraussetzungen sind erfüllt
+12:34:52  [main] 	Initialisiere Module
+12:34:52  [main] 	Das FileZilla Modul ist deaktiviert
+12:34:52  [main] 	Das Mercury Modul ist deaktiviert
+12:34:52  [main] 	Starte Check-Timer
+12:34:52  [main] 	Control Panel bereit
+12:34:54  [Apache] 	Versuche Apache zu starten...
+12:34:55  [Apache] 	Statusänderung erkannt: gestartet
+12:34:59  [mysql] 	Versuche MySQL zu starten...
+12:34:59  [mysql] 	Statusänderung erkannt: gestartet
+13:00:00  [mysql] 	Versuche MySQL zu beenden...
+13:00:00  [Apache] 	stoppe Modul Apache (PID: 11792)
+13:00:00  [Apache] 	stoppe Modul Apache (PID: 11004)
+13:00:01  [Apache] 	Statusänderung erkannt: gestoppt
+13:00:01  [mysql] 	Statusänderung erkannt: gestoppt
+13:00:06  [Apache] 	Versuche Apache zu starten...
+13:00:07  [Apache] 	Statusänderung erkannt: gestartet
+13:00:08  [mysql] 	Versuche MySQL zu starten...
+13:00:08  [mysql] 	Statusänderung erkannt: gestartet
+17:49:35  [mysql] 	Versuche MySQL zu beenden...
+17:49:36  [Apache] 	stoppe Modul Apache (PID: 8092)
+17:49:36  [Apache] 	stoppe Modul Apache (PID: 13200)
+17:49:37  [Apache] 	Statusänderung erkannt: gestoppt
+17:49:37  [mysql] 	Statusänderung erkannt: gestoppt
+18:23:39  [main] 	Deinitialisiere Module
+18:23:39  [main] 	Deinitialisiere Control Panel
+
+12:34:04  [main] 	Initialisere Control Panel
+12:34:04  [main] 	Windows Version:  Enterprise  64-bit
+12:34:05  [main] 	XAMPP Version: 7.2.12
+12:34:05  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+12:34:05  [main] 	Dein Benutzerprofil besitzt keine Administratorenrechte! Das reicht aus für die meisten
+12:34:05  [main] 	Anwendungsfunktionen, aber wann immer du etwas mit Windows-Diensten tun möchtest,
+12:34:05  [main] 	wird eine Sicherheitsabfrage erscheinen oder etwas wird garnicht erst funktionieren!
+12:34:05  [main] 	Also denke daran diese Anwendung mit Administratorrechten zu starten!
+12:34:05  [main] 	XAMPP Installationsverzeichnis: "g:\php\xampp\"
+12:34:05  [main] 	Voraussetzungen werden geprüft
+12:34:07  [main] 	Alle Voraussetzungen sind erfüllt
+12:34:07  [main] 	Initialisiere Module
+12:34:07  [main] 	Das FileZilla Modul ist deaktiviert
+12:34:07  [main] 	Das Mercury Modul ist deaktiviert
+12:34:07  [main] 	Starte Check-Timer
+12:34:07  [main] 	Control Panel bereit
+12:34:11  [Apache] 	Versuche Apache zu starten...
+12:34:11  [Apache] 	Statusänderung erkannt: gestartet
+12:34:12  [Apache] 	Statusänderung erkannt: gestoppt
+12:34:12  [Apache] 	Fehler: Apache wurde unerwartet beendet
+12:34:12  [Apache] 	Ursache könnte ein geblockter Port, fehlende Abhängigkeiten,
+12:34:12  [Apache] 	fehlende Berechtigungen, ein Absturz oder ein Abbruch einer anderen Methode sein.
+12:34:12  [Apache] 	Drücke den Logs Button um error logs zu sehen und prüfe
+12:34:12  [Apache] 	im Windows Event Viewer für weitere Hinweise
+12:34:12  [Apache] 	Wenn du weitere Hilfe benötigst, kopiere den kompletten Inhalt des Log Fensters
+12:34:12  [Apache] 	und füge ihn als Ergänzung in einem neuen Forum Eintrag hinzu.
+12:34:12  [mysql] 	Versuche MySQL zu starten...
+12:34:22  [Apache] 	Versuche Apache zu starten...
+12:34:22  [Apache] 	Statusänderung erkannt: gestartet
+12:34:23  [Apache] 	Statusänderung erkannt: gestoppt
+12:34:23  [Apache] 	Fehler: Apache wurde unerwartet beendet
+12:34:23  [Apache] 	Ursache könnte ein geblockter Port, fehlende Abhängigkeiten,
+12:34:23  [Apache] 	fehlende Berechtigungen, ein Absturz oder ein Abbruch einer anderen Methode sein.
+12:34:23  [Apache] 	Drücke den Logs Button um error logs zu sehen und prüfe
+12:34:23  [Apache] 	im Windows Event Viewer für weitere Hinweise
+12:34:23  [Apache] 	Wenn du weitere Hilfe benötigst, kopiere den kompletten Inhalt des Log Fensters
+12:34:23  [Apache] 	und füge ihn als Ergänzung in einem neuen Forum Eintrag hinzu.
+12:34:54  [Apache] 	Statusänderung erkannt: gestartet
+12:34:59  [mysql] 	Statusänderung erkannt: gestartet
+13:00:00  [mysql] 	Statusänderung erkannt: gestoppt
+13:00:00  [mysql] 	Fehler: MySQL wurde unerwartet beendet
+13:00:00  [mysql] 	Ursache könnte ein geblockter Port, fehlende Abhängigkeiten,
+13:00:00  [mysql] 	fehlende Berechtigungen, ein Absturz oder ein Abbruch einer anderen Methode sein.
+13:00:00  [mysql] 	Drücke den Logs Button um error logs zu sehen und prüfe
+13:00:00  [mysql] 	im Windows Event Viewer für weitere Hinweise
+13:00:00  [mysql] 	Wenn du weitere Hilfe benötigst, kopiere den kompletten Inhalt des Log Fensters
+13:00:00  [mysql] 	und füge ihn als Ergänzung in einem neuen Forum Eintrag hinzu.
+13:00:01  [Apache] 	Statusänderung erkannt: gestoppt
+13:00:01  [Apache] 	Fehler: Apache wurde unerwartet beendet
+13:00:01  [Apache] 	Ursache könnte ein geblockter Port, fehlende Abhängigkeiten,
+13:00:01  [Apache] 	fehlende Berechtigungen, ein Absturz oder ein Abbruch einer anderen Methode sein.
+13:00:01  [Apache] 	Drücke den Logs Button um error logs zu sehen und prüfe
+13:00:01  [Apache] 	im Windows Event Viewer für weitere Hinweise
+13:00:01  [Apache] 	Wenn du weitere Hilfe benötigst, kopiere den kompletten Inhalt des Log Fensters
+13:00:01  [Apache] 	und füge ihn als Ergänzung in einem neuen Forum Eintrag hinzu.
+13:00:06  [Apache] 	Statusänderung erkannt: gestartet
+13:00:08  [mysql] 	Statusänderung erkannt: gestartet
+17:49:36  [Apache] 	Statusänderung erkannt: gestoppt
+17:49:36  [Apache] 	Fehler: Apache wurde unerwartet beendet
+17:49:36  [Apache] 	Ursache könnte ein geblockter Port, fehlende Abhängigkeiten,
+17:49:36  [Apache] 	fehlende Berechtigungen, ein Absturz oder ein Abbruch einer anderen Methode sein.
+17:49:36  [Apache] 	Drücke den Logs Button um error logs zu sehen und prüfe
+17:49:36  [Apache] 	im Windows Event Viewer für weitere Hinweise
+17:49:36  [Apache] 	Wenn du weitere Hilfe benötigst, kopiere den kompletten Inhalt des Log Fensters
+17:49:36  [Apache] 	und füge ihn als Ergänzung in einem neuen Forum Eintrag hinzu.
+17:49:36  [mysql] 	Statusänderung erkannt: gestoppt
+17:49:36  [mysql] 	Fehler: MySQL wurde unerwartet beendet
+17:49:36  [mysql] 	Ursache könnte ein geblockter Port, fehlende Abhängigkeiten,
+17:49:36  [mysql] 	fehlende Berechtigungen, ein Absturz oder ein Abbruch einer anderen Methode sein.
+17:49:36  [mysql] 	Drücke den Logs Button um error logs zu sehen und prüfe
+17:49:36  [mysql] 	im Windows Event Viewer für weitere Hinweise
+17:49:36  [mysql] 	Wenn du weitere Hilfe benötigst, kopiere den kompletten Inhalt des Log Fensters
+17:49:36  [mysql] 	und füge ihn als Ergänzung in einem neuen Forum Eintrag hinzu.
+18:23:43  [main] 	Deinitialisiere Module
+18:23:43  [main] 	Deinitialisiere Control Panel
+
+09:41:22  [main] 	Initialisere Control Panel
+09:41:22  [main] 	Windows Version:  Enterprise  64-bit
+09:41:22  [main] 	XAMPP Version: 7.2.12
+09:41:22  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+09:41:22  [main] 	Dein Benutzerprofil besitzt keine Administratorenrechte! Das reicht aus für die meisten
+09:41:22  [main] 	Anwendungsfunktionen, aber wann immer du etwas mit Windows-Diensten tun möchtest,
+09:41:22  [main] 	wird eine Sicherheitsabfrage erscheinen oder etwas wird garnicht erst funktionieren!
+09:41:22  [main] 	Also denke daran diese Anwendung mit Administratorrechten zu starten!
+09:41:22  [main] 	XAMPP Installationsverzeichnis: "g:\php\xampp\"
+09:41:22  [main] 	Voraussetzungen werden geprüft
+09:41:25  [main] 	Alle Voraussetzungen sind erfüllt
+09:41:25  [main] 	Initialisiere Module
+09:41:25  [main] 	Das FileZilla Modul ist deaktiviert
+09:41:25  [main] 	Das Mercury Modul ist deaktiviert
+09:41:25  [main] 	Starte Check-Timer
+09:41:25  [main] 	Control Panel bereit
+09:41:27  [Apache] 	Versuche Apache zu starten...
+09:41:27  [Apache] 	Statusänderung erkannt: gestartet
+09:41:27  [mysql] 	Versuche MySQL zu starten...
+09:41:27  [mysql] 	Statusänderung erkannt: gestartet
+10:03:34  [mysql] 	Versuche MySQL zu beenden...
+10:03:35  [Apache] 	stoppe Modul Apache (PID: 8480)
+10:03:35  [Apache] 	stoppe Modul Apache (PID: 18424)
+10:03:35  [Apache] 	Statusänderung erkannt: gestoppt
+10:03:35  [mysql] 	Statusänderung erkannt: gestoppt
+10:03:39  [main] 	Deinitialisiere Module
+10:03:39  [main] 	Deinitialisiere Control Panel
+
+11:44:48  [main] 	Initialisere Control Panel
+11:44:48  [main] 	Windows Version:  Enterprise  64-bit
+11:44:48  [main] 	XAMPP Version: 7.2.12
+11:44:48  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+11:44:48  [main] 	Dein Benutzerprofil besitzt keine Administratorenrechte! Das reicht aus für die meisten
+11:44:48  [main] 	Anwendungsfunktionen, aber wann immer du etwas mit Windows-Diensten tun möchtest,
+11:44:48  [main] 	wird eine Sicherheitsabfrage erscheinen oder etwas wird garnicht erst funktionieren!
+11:44:48  [main] 	Also denke daran diese Anwendung mit Administratorrechten zu starten!
+11:44:48  [main] 	XAMPP Installationsverzeichnis: "g:\php\xampp\"
+11:44:48  [main] 	Voraussetzungen werden geprüft
+11:44:50  [main] 	Alle Voraussetzungen sind erfüllt
+11:44:50  [main] 	Initialisiere Module
+11:44:50  [main] 	Das FileZilla Modul ist deaktiviert
+11:44:50  [main] 	Das Mercury Modul ist deaktiviert
+11:44:50  [main] 	Starte Check-Timer
+11:44:50  [main] 	Control Panel bereit
+11:44:53  [Apache] 	Versuche Apache zu starten...
+11:44:53  [Apache] 	Statusänderung erkannt: gestartet
+11:44:54  [mysql] 	Versuche MySQL zu starten...
+11:44:55  [mysql] 	Statusänderung erkannt: gestartet
+15:42:02  [mysql] 	Versuche MySQL zu beenden...
+15:42:03  [Apache] 	stoppe Modul Apache (PID: 14540)
+15:42:03  [Apache] 	stoppe Modul Apache (PID: 21056)
+15:42:03  [Apache] 	Statusänderung erkannt: gestoppt
+15:42:03  [mysql] 	Statusänderung erkannt: gestoppt
+15:42:22  [main] 	Deinitialisiere Module
+15:42:22  [main] 	Deinitialisiere Control Panel
+
