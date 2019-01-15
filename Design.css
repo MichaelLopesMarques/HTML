@@ -33,7 +33,7 @@ body {
 	width: 98%;
 	margin-bottom: 1%;
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
-	z-index: 1;
+	z-index: 2;
 }
 .navigation ul{
 	transform: skew(20deg);
@@ -90,7 +90,7 @@ body {
 	transition: 0.3s;
 }
 .goButton:hover{
-	transform: scale(1.03);
+	transform: scale(1.03) rotate(-5deg);
 }
 .fitness1{
 	width: 95%;
