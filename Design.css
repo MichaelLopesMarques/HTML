@@ -8,14 +8,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-.clearfix {
-  overflow: auto;
-}
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 .header{
 	padding:1%;
 	width: 98%;
@@ -97,6 +89,7 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	float: left;
 }
 .main-banner{
     width: 100%;
@@ -290,11 +283,6 @@ a.krafttraining:hover ~ .fitnesstext4{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.content{
-	margin: 0;
-	margin-bottom: 1%;
-	float: left;
 }
 .footer{
     position: relative;
