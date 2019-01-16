@@ -134,6 +134,7 @@ body {
 .Ueberschrift{
 	width: 100%;
 	text-align: center;
+	text-shadow: 2px 2px 5px #00063D;
 	margin-top: -3%;
 	font-weight: 600;
 	font-size: 620%;
