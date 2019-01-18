@@ -287,6 +287,11 @@ a.krafttraining:hover ~ .fitnesstext4{
 	width: 30%;
 	height: 500px;
 }
+.auswahl{
+	font-size: 25pt;
+	line-height: 0;
+	margin-top: 4%;
+}
 .linkeHaelfte > p{
 	margin-bottom: 0;
 	margin-top: 25px;
@@ -315,7 +320,6 @@ a.krafttraining:hover ~ .fitnesstext4{
 }
 .rechteHaelfte{
 	float: right;
-	display: table;
 	width: 60%;
 	height: 500px;
 }
@@ -329,6 +333,8 @@ a.krafttraining:hover ~ .fitnesstext4{
 	margin: 0 auto;
 	margin-top: 250px;
 	transform: translateY(-50%);
+	height: auto;
+	width: 80%;
 }
 .singup{
 	float: left;
