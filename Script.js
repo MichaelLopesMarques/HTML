@@ -1,22 +1,26 @@
 function test(){
-	var a1 = document.getElementById("a1");
-	if(a1.checked){
-		
-	}
-	
 	var training = document.getElementsByName("training[]");
 	var haeufig = document.getElementsByName("haeufig[]");
 	var intensitaet = document.getElementsByName("intensitaet[]");
 	var dauer = document.getElementsByName("dauer[]");
-	alert(training.length);
-	alert(haeufig.length);
-	alert(intensitaet.length);
-	alert(dauer.length);
 	
-	document.getElementsByClassName("plan").src="Bilder/MyTimeLogo.png";
+	var bild = [];
+	for(var i=1; i<=32; i++){
+		bild[i] = new Image();
+		bild[i].src = 'Bilder/Trainingspläne/Training'+[i]+'.png';
+	}
+	var z=0;
+	
 	for(var i=0; i<training.length; i++){
-		if(training[i].checked){
-
+		for(var j=0; j<haeufig.length; j++){
+			for(var k=0; k<intensitaet.length; k++){
+				for(var l=0; l<dauer.length; l++){
+					z++;
+					if(training[i].checked && haeufig[j].checked && intensitaet[k].checked && dauer[l].checked){
+						document.getElementById('plan').src = bild[z].src;
+					}
+				}
+			}
 		}
 	}
 }
