@@ -330,6 +330,12 @@ a.krafttraining:hover ~ .fitnesstext4{
 	margin-top: 250px;
 	transform: translateY(-50%);
 }
+.singup{
+	float: left;
+}
+.anmel{
+	float: left;
+}
 .footer{
     position: relative;
 	padding: 5px 20px;
