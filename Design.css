@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	background: #F4F5F8;
+	background: #F0F0F4;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 800;
 	font-style: normal;
@@ -290,21 +290,45 @@ a.krafttraining:hover ~ .fitnesstext4{
 .linkeHaelfte > p{
 	margin-bottom: 0;
 	margin-top: 25px;
+
 }
 .linkeHaelfte > label{
 	font-weight: 500;
 }
+.sendebtn{
+	position: absolute;
+	bottom: 2%;
+	font-size: 15pt;
+	font-weight: 600;
+	background: rgb(48,108,180);
+	color: #F0F0F4;
+	transform: skew(-10deg);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	transition: 0.3s;
+}
+.sendebtn:hover{
+	background: #1F4A7C;
+}
+.sendebtn > p{
+	line-height: 0;
+	transform: skew(10deg);
+}
 .rechteHaelfte{
 	float: right;
-	display: block;
+	display: table;
 	width: 60%;
 	height: 500px;
 }
-.tabelle{
+.rechteHaelfte > p{
+	font-size: 25pt;
+	line-height: 0;
+	margin-top: 2%;
+}
+.plan{ 
 	display: block;
-	left: 50%;
-	right: 50%;
-	transform: translate(50% 50%);
+	margin: 0 auto;
+	margin-top: 250px;
+	transform: translateY(-50%);
 }
 .footer{
     position: relative;
