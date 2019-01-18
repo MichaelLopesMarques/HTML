@@ -280,12 +280,15 @@ a.krafttraining:hover ~ .fitnesstext4{
 	margin-top: -0.3%;
 	background: rgb(48,108,180);
 	font-style: normal;
+	text-align: center;
 }
 .linkeHaelfte{
 	float: left;
 	position: relative;
 	width: 30%;
 	height: 500px;
+	box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.70);
+	background: #E3E1E1;
 }
 .auswahl{
 	font-size: 25pt;
@@ -295,18 +298,22 @@ a.krafttraining:hover ~ .fitnesstext4{
 .linkeHaelfte > p{
 	margin-bottom: 0;
 	margin-top: 25px;
-
 }
 .linkeHaelfte > label{
 	font-weight: 500;
 }
+.linkeHaelfte > input:checked{
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.30));
+}
 .sendebtn{
 	position: absolute;
+	left: 10%;
 	bottom: 2%;
 	font-size: 15pt;
 	font-weight: 600;
 	background: rgb(48,108,180);
 	color: #F0F0F4;
+	width: 80%;
 	transform: skew(-10deg);
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
 	transition: 0.3s;
@@ -322,6 +329,8 @@ a.krafttraining:hover ~ .fitnesstext4{
 	float: right;
 	width: 60%;
 	height: 500px;
+
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
 }
 .rechteHaelfte > p{
 	font-size: 25pt;
