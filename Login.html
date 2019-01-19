@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>MyTime - System</title>
+		<title>MyTime - Login</title>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="../HTML/Design.css" type="text/css">
 		<link rel="icon" type="image/jpg" href="../HTML/Bilder/Icon.jpg">
 	</head>
@@ -42,10 +43,46 @@
 			</div>
 		</header>
 		<main class="content">
-			<p>PlanÄndern: https://ak1.picdn.net/shutterstock/videos/19020691/thumb/8.jpg (18.01.19 23:50);</p>
-			<p>PlanLöschen: https://tipps.computerbild.de/imgs/19/1/5/9/3/5/9/junk-dateien-loeschen-f26c76e89e709f7e.jpg (18.01.19 23:50);</p>
-			<p>ÜberUns: https://www.hea.de/resources/images/content/slides/slide-mitglieder-01.jpg (18.01.19 23:50);</p>
-			<p>Kontakte: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Hermandad_-_friendship.jpg/1200px-Hermandad_-_friendship.jpg (18.01.19 23:50);</p>
+			<h1> Registrierung </h1>
+			<fieldset class="singup">
+				<form action="http://hshl.webpraktikum.net/05_aufgabe_02.php" method="get">
+					<label for="anrlist">Anrede:</label>
+					<select id="anrlist" tabindex="1" required>
+						<option value=""> Wählen Sie aus </option>
+						<option value="Herr"> Herr </option>
+						<option value="Frau"> Frau </option>
+						<option value="Inter"> Inter </option>
+					</select>
+					<p>
+					Name: <br> <input name="name" type="text" size="20" tabindex="2" required></p>
+					<p>
+					Vorname: <br> <input name="vorname" type="text" size="20" tabindex="3" required></p>
+					<p>
+					E-Mail: <br> <input name="email" type="email" size="20" tabindex="4" required></p>
+					<p>
+					PLZ: <br> <input name="plz" type="number" size="5" maxlength="5" tabindex="5" required onchange="if(isNAN(this.value)) return false;"></p>
+					<p>
+					Ort: <br> <input name="ort" type="text" size="20" tabindex="6" required></p>
+					<p>
+					Passwort: <br> <input name="password" type="password" size="20" tabindex="7" required></p>
+					<p>
+					Passwort wiederholen: <br> <input name="againpassword" type="password" size="20" tabindex="8" required></p>
+					<p>
+					<input type="submit" value="Registrieren" tabindex="7">
+					<input type="reset" value="Reset" tabindex="8"></p>
+				</form>
+			</fieldset>	
+				<h1> Anmelden </h1>
+			<fieldset class="anmel">
+				<form action="http://hshl.webpraktikum.net/05_aufgabe_02.php" method="get">
+					E-Mail: <br> <input name="name" type="text" size="20" tabindex="9" required>
+					<p>
+					Passwort: <br> <input name="password" type="password" size="20" tabindex="10" required></p>
+					<p>
+					<input type="submit" value="Einloggen" tabindex="11">
+					<input type="reset" value="Reset" tabindex="12"></p>
+				</form>
+			</fieldset>	
 		</main>
 		<footer class="footer">
 			<h3>Das ist der Footer Bereich</h3>
