@@ -48,35 +48,55 @@
 				<div class="auswahl">Auswahl:</div>
 				
 				<p>Trainingsart:</p>
-				<input type="radio" name="training[]" value="Fitnesssteigerung" id="a1">
-				<label for="a1"><span></span>Fitnesssteigerung</label>
-				<input type="radio" name="training[]" value="Ausdauersteigerung" id="a2">
-				<label for="a2"><span></span>Ausdauersteigerung</label><br>
-				<input type="radio" name="training[]" value="Kraftausbau" id="a3">
-				<label for="a3"><span></span>Kraftausbau</label>
-				<input type="radio" name="training[]" value="Muskelaufbau" id="a4">
-				<label for="a4"><span></span>Muskelaufbau</label>
+				<label class="radioContainer">Fitnesssteigerung
+					<input type="radio" name="training[]" value="Fitnesssteigerung"  id="#a1">
+					<span class="circle"></span>
+				</label>
+				<label class="radioContainer">Ausdauersteigerung
+					<input type="radio" name="training[]" value="Ausdauersteigerung" id="#a2">
+					<span class="circle"></span>
+				</label>
+				<label class="radioContainer">Kraftausbau
+					<input type="radio" name="training[]" value="Kraftausbau" id="#a3">
+					<span class="circle"></span>
+				</label>
+				<label class="radioContainer">Muskelaufbau
+					<input type="radio" name="training[]" value="Muskalaufbau" id="#a4">
+					<span class="circle"></span>
+				</label>
 				<br>
 			
 				<p>Häufigkeit:</p>
-				<input type="radio" name="haeufig[]" value="1x" id="b1">
-				<label for="b1">1x pro Woche</label>
-				<input type="radio" name="haeufig[]" value="2x" id="b2">
-				<label for="b2">2x pro Woche</label>
+				<label class="radioContainer">1x pro Woche
+					<input type="radio" name="haeufig[]" value="1x"  id="#b1">
+					<span class="circle"></span>
+				</label>
+				<label class="radioContainer">2x pro Woche
+					<input type="radio" name="haeufig[]" value="2x" id="#b2">
+					<span class="circle"></span>
+				</label>
 				<br>
 			
 				<p>Intensität:</p>
-				<input type="radio" name="intensitaet[]" value="leicht" id="c1">
-				<label for="c1">Leicht</label>
-				<input type="radio" name="intensitaet[]" value="schwer" id="c3">
-				<label for="c3">Schwer</label>
+				<label class="radioContainer">Leicht
+					<input type="radio" name="intensitaet[]" value="leicht" id="c1">
+					<span class="circle"></span>
+				</label>
+				<label class="radioContainer">Schwer
+					<input type="radio" name="intensitaet[]" value="schwer" id="c3">
+					<span class="circle"></span>
+				</label>
 				<br>
 			
 				<p>Dauer:</p>
-				<input type="radio" name="dauer[]" value="kurz" id="d1">
-				<label for="d1">Kurz</label>
-				<input type="radio" name="dauer[]" value="lang" id="d3">
-				<label for="d3">Lang</label>
+				<label class="radioContainer">Kurz
+					<input type="radio" name="dauer[]" value="kurz" id="d1">
+					<span class="circle"></span>
+				</label>
+				<label class="radioContainer">Lang
+					<input type="radio" name="dauer[]" value="lang" id="d3">
+					<span class="circle"></span>
+				</label>
 				<br>
 				
 				<button type="submit" name="senden" class="sendebtn" onClick="bildGenerieren()"><p>Plan generieren</p></button>
