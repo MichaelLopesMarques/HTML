@@ -28,5 +28,12 @@ function bildGenerieren(){
 $(document).ready(function(){
   $(".Zwischenueberschrift").click(function(){
     $(".Inhalt").slideToggle("slow");
+    $(".Zwischenueberschrift").toggleClass("gg", 500);
+  });
+  $(".plus").mouseover(function(){
+	$(".plus").attr("src","../Bilder/Sonstiges/pluszeichen2.png");
+  });
+  $(".plus").mouseout(function(){
+	$(".plus").attr("src","../Bilder/Sonstiges/pluszeichen.png");
   });
 });

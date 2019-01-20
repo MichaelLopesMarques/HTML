@@ -338,18 +338,35 @@ a.krafttraining:hover ~ .fitnesstext4{
 .Zwischenueberschrift{
 	display: block;
 	text-align: center;
+	box-sizing: border-box;
+	padding: 1% 1%;
+	margin-top: 1%;
 	width: 80%;
 	outline: solid 2px #494949;
 	margin-left: 50%;
 	transform: translateX(-50%);
 	background: #575757;
+	color: #F4F5F8;
+}
+.gg{
+	background: rgb(48,108,180);
+}
+.plus{
+	position: absolute;
+	display: block;
+	right: 1%;
+	height: 70%;
+	top: 50%;
+	transform: translateY(-50%);
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.70));
+	transition: 0.5s;
 }
 .Inhalt{
 	display: none;
 	box-sizing: border-box;
 	text-align: left;
 	background: #AAAAAA;
-	outline: solid 2px #9D9D9D;
+	outline: solid 2px #7E7E7E;
 	padding: 1%;
 	margin-top: 0.2%;
 }
