@@ -433,7 +433,7 @@ a.krafttraining:hover ~ .fitnesstext4{
     background-color: #306CB4;
     clear: both;
 }
-span{
+.footer span{
 	display: block;
 	margin: -3% 0 0 0;
 	width: 90px;
