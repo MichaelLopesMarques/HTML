@@ -1,4 +1,4 @@
-function test(){
+function bildGenerieren(){
 	var training = document.getElementsByName("training[]");
 	var haeufig = document.getElementsByName("haeufig[]");
 	var intensitaet = document.getElementsByName("intensitaet[]");
@@ -24,3 +24,9 @@ function test(){
 		}
 	}
 }
+
+$(document).ready(function(){
+  $(".Zwischenueberschrift").click(function(){
+    $(".Inhalt").slideToggle("slow");
+  });
+});

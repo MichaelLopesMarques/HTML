@@ -334,6 +334,26 @@ a.krafttraining:hover ~ .fitnesstext4{
 	width: 80%;
 }
 
+/*Webseiten Ausdauersteigerung*/
+.Zwischenueberschrift{
+	display: block;
+	text-align: center;
+	width: 80%;
+	outline: solid 2px #494949;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background: #575757;
+}
+.Inhalt{
+	display: none;
+	box-sizing: border-box;
+	text-align: left;
+	background: #AAAAAA;
+	outline: solid 2px #9D9D9D;
+	padding: 1%;
+	margin-top: 0.2%;
+}
+
 /*Webseite: Anmeldung*/
 .singup{
 	float: left;
