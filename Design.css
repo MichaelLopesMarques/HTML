@@ -18,7 +18,7 @@ body {
 	width: 20%;
 	float: left;
 	padding-bottom: 1%;
-	padding-left: 1%;
+	padding-left: 2%;
 }
 
 /*Login-Button*/
@@ -390,6 +390,7 @@ a.krafttraining:hover ~ .fitnesstext4{
 /*Footer*/
 .footer{
     position: relative;
+	text-align: center;
 	padding: 5px 20px;
     height: 15%;
     right: 0;
@@ -399,7 +400,42 @@ a.krafttraining:hover ~ .fitnesstext4{
     background-color: #306CB4;
     clear: both;
 }
+span{
+	display: block;
+	margin: -3% 0 0 0;
+	width: 90px;
+	height: 90px;
+	background-image: url("Bilder/Sonstiges/Social Media.png");
+	transform: scale(0.7);
+}
+.Facebook{
+	position: absolute;
+	background-position: 0px 0px;
+	left: calc(40% - 45px);
+}
+.Twitter{
+	position: absolute;
+	background-position: -172px -174px;
+	left: calc(45% - 45px);
+}
+.Instagram{
+	position: absolute;
+	background-position: 0px -87px;
+	left: calc(50% - 45px);
+}
+.Youtube{
+	position: absolute;
+	background-position: -172px 0px;
+	left: calc(55% - 45px);
+}
+.Google{
+	position: absolute;
+	background-position: -258px 0px;
+	left: calc(60% - 45px);
+}
 .fussbereich{
+	position: relative;
+	margin-top: 3.5%;
 	width: 100%;
 	text-align: center;
 	font-weight: 100;
