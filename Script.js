@@ -26,14 +26,33 @@ function bildGenerieren(){
 }
 
 $(document).ready(function(){
+	var ausgeklappt = false;
   $(".Zwischenueberschrift").click(function(){
     $(".Inhalt").slideToggle("slow");
     $(".Zwischenueberschrift").toggleClass("gg", 500);
+	if(ausgeklappt == false){
+		ausgeklappt = true;
+		$(".plus").attr("src","../Bilder/Sonstiges/minuszeichen.png");
+	}else{
+		ausgeklappt = false;
+		
+		$(".plus").attr("src","../Bilder/Sonstiges/pluszeichen.png");
+	}
+	return ausgeklappt;
   });
   $(".plus").mouseover(function(){
-	$(".plus").attr("src","../Bilder/Sonstiges/pluszeichen2.png");
+	if(ausgeklappt == false){
+		$(".plus").attr("src","../Bilder/Sonstiges/pluszeichen2.png");
+	}else{
+		$(".plus").attr("src","../Bilder/Sonstiges/minuszeichen2.png");
+	}
+	
   });
   $(".plus").mouseout(function(){
-	$(".plus").attr("src","../Bilder/Sonstiges/pluszeichen.png");
+	if(ausgeklappt == false){
+		$(".plus").attr("src","../Bilder/Sonstiges/pluszeichen.png");
+	}else{
+		$(".plus").attr("src","../Bilder/Sonstiges/minuszeichen.png");
+	}
   });
 });
