@@ -43,19 +43,37 @@
 			</div>
 		</header>
 		<main class="content">
-			<h1> Anmelden </h1>
-			<fieldset class="anmel">
+			<h1> Registrierung </h1>
+			<fieldset class="signup">
 				<form action="http://hshl.webpraktikum.net/05_aufgabe_02.php" method="get">
-					E-Mail: <br> <input name="name" type="text" size="20" tabindex="9" required>
+					<label for="anrlist">Anrede:</label>
+					<select id="anrlist" tabindex="1" required>
+						<option value=""> Wählen Sie aus </option>
+						<option value="Herr"> Herr </option>
+						<option value="Frau"> Frau </option>
+						<option value="Inter"> Inter </option>
+					</select>
 					<br><br>
-					Passwort: <br> <input name="password" type="password" size="20" tabindex="10" required>
+					Name: <br> <input name="name" type="text" size="20" tabindex="2" required>
 					<br><br>
-					<input type="submit" value="Einloggen" tabindex="11">
-					<input type="reset" value="Reset" tabindex="12">
+					Vorname: <br> <input name="vorname" type="text" size="20" tabindex="3" required>
+					<br><br>
+					E-Mail: <br> <input name="email" type="email" size="20" tabindex="4" required>
+					<br><br>
+					PLZ: <br> <input name="plz" type="number" size="5" maxlength="5" tabindex="5" required onchange="if(isNAN(this.value)) return false;">
+					<br><br>
+					Ort: <br> <input name="ort" type="text" size="20" tabindex="6" required>
+					<br><br>
+					Passwort: <br> <input name="password" type="password" size="20" tabindex="7" required
+					<br><br><br>
+					Passwort wiederholen: <br> <input name="againpassword" type="password" size="20" tabindex="8" required>
+					<p>
+					<input type="submit" value="Registrieren" tabindex="7">
+					<input type="reset" value="Reset" tabindex="8"></p>
 				</form>
 				<br>
-				<a href="../HTML/Register.html">Account anlegen</a>
-			</fieldset>
+				<a href="../HTML/Login.html">Bereits registriert?</a>
+			</fieldset>	
 		</main>
 		<footer class="footer">
 			<h3>Unser Social Media:</h3>
