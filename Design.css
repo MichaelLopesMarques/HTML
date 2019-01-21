@@ -304,7 +304,7 @@ a.krafttraining:hover ~ .fitnesstext4{
 	float: left;
 	position: relative;
 	width: 30%;
-	height: 500px;
+	height: 600px;
 	box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.70);
 	background: #E3E1E1;
 }
@@ -360,7 +360,7 @@ a.krafttraining:hover ~ .fitnesstext4{
 }
 .sendebtn{
 	position: absolute;
-	left: 10%;
+	right: 10%;
 	bottom: 2%;
 	font-size: 15pt;
 	font-weight: 600;
@@ -371,7 +371,7 @@ a.krafttraining:hover ~ .fitnesstext4{
 	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
 	transition: 0.3s;
 }
-.sendebtn:hover .cricle{
+.sendebtn:hover {
 	background: #1F4A7C;
 }
 
@@ -381,8 +381,9 @@ a.krafttraining:hover ~ .fitnesstext4{
 }
 .rechteHaelfte{
 	float: right;
+	position: relative;
 	width: 60%;
-	height: 500px;
+	height: 600px;
 	background: #E3E1E1;
 	box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.70);
 }
@@ -392,9 +393,10 @@ a.krafttraining:hover ~ .fitnesstext4{
 	margin-top: 2%;
 }
 .plan{ 
+	position: relative;
 	display: block;
 	margin: 0 auto;
-	margin-top: 250px;
+	margin-top: 260px;
 	transform: translateY(-50%);
 	height: auto;
 	width: 80%;
@@ -412,11 +414,11 @@ a.krafttraining:hover ~ .fitnesstext4{
 	outline: solid 2px #494949;
 	margin-left: 50%;
 	transform: translateX(-50%);
-	background: #575757;
+	background: #306CB4;
 	color: #F4F5F8;
 }
 .gg{
-	background: rgb(48,108,180);
+	background: #1F4A7C;
 }
 .plus{
 	position: absolute;
