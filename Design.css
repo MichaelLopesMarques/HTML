@@ -35,7 +35,7 @@ body {
 	transform: skew(-10deg);
 	position: sticky;
 	top: 10px;
-	background : rgba(48,108,180,0.80);
+	background : #306CB4;
 	float: right;
 	width: 98%;
 	margin-bottom: 1%;
@@ -65,7 +65,7 @@ body {
 .navigation a:hover{
     color: #FFFFFF;
 	text-shadow: 2px 2px 10px #00063D;
-    background-color: #1F4A7C;
+    background-color: #ff6000;
 }
 .navigation ul li ul{
 	margin-top: 10px;
@@ -87,7 +87,7 @@ body {
 .navigation ul li ul li:hover{
 	display: block;
 	color: #000;
-	background-color: #1F4A7C;
+	background-color: #ff6000;
 }
 
 /*Content (Hauptteil)*/
@@ -482,6 +482,8 @@ a.krafttraining:hover ~ .fitnesstext4{
     transform: skew(-10deg);
 }
 .anmelden a{
+	font-size: 12pt;
+	font-weight: 600;
     text-decoration-line: none;
     color: #FFFFFF;
 }
