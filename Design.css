@@ -481,7 +481,7 @@ a.krafttraining:hover ~ .fitnesstext4{
     background-color: #ff6000;
     transform: skew(-10deg);
 }
-.anmelden a{
+a .anmelden{
 	font-size: 12pt;
 	font-weight: 600;
     text-decoration-line: none;
