@@ -13,7 +13,11 @@
 	<link rel="stylesheet" href="Design-PHP.css" type="text/css">
 </head>
 <body>
-
+<div class="navlogo">
+	<a href="../HTML/Startseite.html">
+			<img src="Bilder/MyTimeLogo.png" alt="MyTime" title="MyTime" class="logo" height="auto" width="auto">
+			</a>
+</div>
 <div class="header">
 	<h2>Profil</h2>
 </div>
@@ -31,8 +35,8 @@
   	<?php endif ?>
 
     <!-- Looged in Benutzer informationen -->
-    <?php  if (isset($_SESSION['vorname'])) : ?>
-    	<p>Willkommen <?php echo $_SESSION['vorname']; ?></p>
+    <?php  if (isset($_SESSION['email'])) : ?>
+    	<p>Willkommen <?php echo $_SESSION['email']; ?></p>
     	<p> <a href="index.php?logout='1'" style="color: red;">Ausloggen</a> </p>
     <?php endif ?>
 </div>
