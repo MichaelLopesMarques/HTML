@@ -563,7 +563,7 @@ a .anmelden{
 
 /*Sonstiges*/
 input[type=text], input[type=email], input[type=number], input[type=password]{
-	width: 300px;
+	width: 370px;
 }
 .logo, .header, .login, .navigation {
 	margin-right: 1%;
