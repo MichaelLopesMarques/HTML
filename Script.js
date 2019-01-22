@@ -25,13 +25,17 @@ function bildGenerieren(){
 	}
 }
 
-var modal = document.getElementById('myModal');
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
 
 $(document).ready(function(){
 	var ausgeklappt1 = false;
+	var ziffer=1;
+	
+	$("#speichern").click(function(){
+		var z=$("#plan").attr("src");
+		$("#speichern").attr("href", z);
+		$("#speichern").attr("download", ziffer+".png");
+		ziffer++;
+	});
 	
 	$("#Zwischenueberschrift1").click(function(){
 		$("#inhalt1").slideToggle("slow");
