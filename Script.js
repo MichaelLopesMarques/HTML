@@ -25,8 +25,14 @@ function bildGenerieren(){
 	}
 }
 
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
 $(document).ready(function(){
 	var ausgeklappt1 = false;
+	
 	$("#Zwischenueberschrift1").click(function(){
 		$("#inhalt1").slideToggle("slow");
 		$("#Zwischenueberschrift1").toggleClass("gg", 500);

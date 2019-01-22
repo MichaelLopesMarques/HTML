@@ -231,6 +231,7 @@ body {
 	padding-right: 20px;
     padding-left: 60px;
 }
+
 /*Webseite: Training, MyPlans, System*/
 .Ueberschrift{
 	width: 100%;
@@ -271,25 +272,25 @@ a.ausdauertraining:hover + .fitnesstext1{
 	transform: scale(1.03);
 }
 .ausdauertraining:hover{
-	transform: scale(1.03);
+	transform: scale(1.03) translateY(-6px);
 }
 a.fitnesssteigerung:hover ~ .fitnesstext2{
 	transform: scale(1.03);
 }
 .fitnesssteigerung:hover{
-	transform: scale(1.03);
+	transform: scale(1.03) translateY(-6px);
 }
 a.muskeltraining:hover + .fitnesstext3{
 	transform: scale(1.03);
 }
 .muskeltraining:hover{
-	transform: scale(1.03);
+	transform: scale(1.03) translateY(-6px);
 }
 a.krafttraining:hover ~ .fitnesstext4{
 	transform: scale(1.03);
 }
 .krafttraining:hover{
-	transform: scale(1.03);
+	transform: scale(1.03) translateY(-6px);
 }
 .fitnesstext{
 	line-height: 0.2em;
@@ -480,12 +481,18 @@ a.krafttraining:hover ~ .fitnesstext4{
     height: 40px;
     background-color: #ff6000;
     transform: skew(-10deg);
+	border: solid 1px #ff6000;
+	transition: 0.3s;
 }
 a .anmelden{
 	font-size: 12pt;
 	font-weight: 600;
     text-decoration-line: none;
     color: #FFFFFF;
+}
+.anmelden:hover{
+	transform: skew(-10deg) scale(1.03);
+	box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.70);
 }
 .footer span{
 	display: block;
@@ -499,26 +506,51 @@ a .anmelden{
 	position: absolute;
 	background-position: 1px 0px;
 	left: calc(36% - 45px);
+	transition: 0.3s;
+}
+.Facebook:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
 }
 .Twitter{
 	position: absolute;
 	background-position: -170px -174px;
 	left: calc(43% - 45px);
+	transition: 0.3s;
+}
+.Twitter:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
 }
 .Instagram{
 	position: absolute;
 	background-position: -1px -87px;
 	left: calc(50% - 45px);
+	transition: 0.3s;
+}
+.Instagram:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
 }
 .Youtube{
 	position: absolute;
 	background-position: -172px 0px;
 	left: calc(57% - 45px);
+	transition: 0.3s;
+}
+.Youtube:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
 }
 .Google{
 	position: absolute;
 	background-position: -258px 0px;
 	left: calc(64% - 45px);
+	transition: 0.3s;
+}
+.Google:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
 }
 .fussbereich{
 	position: relative;
