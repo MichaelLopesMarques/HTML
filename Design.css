@@ -447,7 +447,18 @@ a.krafttraining:hover ~ .fitnesstext4{
 	margin-left: 10%;
 	font-weight: 600;
 }
-
+/*Seite: Über uns*/
+.about{
+	display: inline-block;
+	width: 100%;
+	min-height: 200px;
+	max-height: 400px;
+    padding-top: 20px;
+    background-image: url("Bilder/Sonstiges/Header.png");
+	background-position: center right;
+	background-size: cover;
+	clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0 100%, 0 0);
+}
 /*Webseite: Anmeldung*/
 .signup{
 	float: left;
