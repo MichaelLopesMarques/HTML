@@ -31,18 +31,20 @@ $(document).ready(function(){
 	var ziffer=1;
 
 	$('#about').hide();
-	$('#about').show("slide", { direction: "left" }, 2000);
-	
 	$('.main-banner > h1').hide();
-	$('.main-banner > h1').fadeIn(1000);
-	
 	$('#go-button > a').hide();
-	$('#go-button > a').delay(800);
-	$('#go-button > a').fadeIn(1000);
-	
 	window.setTimeout(function() {
-		$('#go-button').toggleClass("gg2");
-	}, 800);
+		$('#about').show("slide", { direction: "left" }, 2000);
+	
+		$('.main-banner > h1').fadeIn(1000);
+	
+		$('#go-button > a').delay(800);
+		$('#go-button > a').fadeIn(1000);
+		
+		window.setTimeout(function() {
+			$('#go-button').toggleClass("gg2");
+		}, 800);
+	}, 300);
 	
 	$("#speichern").click(function(){
 		var z=$("#plan").attr("src");
