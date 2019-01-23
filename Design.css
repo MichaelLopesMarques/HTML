@@ -490,6 +490,14 @@ a.krafttraining:hover ~ .fitnesstext4{
 .signup a{
 	font-size: 10pt;
 }
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #306CB4;
+  border: none;
+  border-radius: 5px;
+}
 /*Footer*/
 .footer{
     position: relative;

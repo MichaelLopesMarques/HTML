@@ -46,14 +46,6 @@
 			<h1> Registrierung </h1>
 			<fieldset class="signup">
 				<form action="http://hshl.webpraktikum.net/05_aufgabe_02.php" method="get">
-					<label for="anrlist">Anrede:</label>
-					<select id="anrlist" tabindex="1" required>
-						<option value=""> Wählen Sie aus </option>
-						<option value="Herr"> Herr </option>
-						<option value="Frau"> Frau </option>
-						<option value="Inter"> Inter </option>
-					</select>
-					<br><br>
 					Name: <br> <input name="name" type="text" size="20" tabindex="2" required>
 					<br><br>
 					Vorname: <br> <input name="vorname" type="text" size="20" tabindex="3" required>
@@ -68,8 +60,8 @@
 					<br><br><br>
 					Passwort wiederholen: <br> <input name="againpassword" type="password" size="20" tabindex="8" required>
 					<p>
-					<input type="submit" value="Registrieren" tabindex="7">
-					<input type="reset" value="Reset" tabindex="8"></p>
+					<input type="submit" value="Registrieren" class="btn" tabindex="9">
+					<input type="reset" value="Reset" class="btn" tabindex="10"></p>
 				</form>
 				<br>
 				<a href="../HTML/Login.html">Bereits registriert?</a>
