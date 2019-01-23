@@ -214,7 +214,7 @@ input[type=text], input[type=email], input[type=number], input[type=password]{
 	}
 	nav{
 		display: block;
-		margin-top: 8%;
+		margin-top: 13%;
 		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
@@ -243,5 +243,22 @@ input[type=text], input[type=email], input[type=number], input[type=password]{
 	nav ul li ul{
 		display: none;
 	}
-
+	.logo{
+		width: 40%;
+	}
+	.login{
+		width: 34%;
+	}
+	.Facebook{
+		left: calc(10% - 45px);
+	}
+	.Twitter{
+		left: calc(30% - 45px);
+	}
+	.Youtube{
+		left: calc(70% - 45px);
+	}
+	.Google{
+		left: calc(90% - 45px);
+	}
 }

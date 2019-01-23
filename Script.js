@@ -42,7 +42,7 @@ $(document).ready(function(){
 		$('#go-button > a').fadeIn(1000);
 		
 		window.setTimeout(function() {
-			$('#go-button').toggleClass("gg2");
+			$('#go-button').toggleClass("rotate");
 		}, 800);
 	}, 300);
 	
