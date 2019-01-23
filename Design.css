@@ -111,6 +111,9 @@ nav{
 	background-size: cover;
 	float: center;
 }
+#go-button{
+	width: 100%;
+}
 .main-banner img{
 	display: block;
 	margin-top: 100px;
