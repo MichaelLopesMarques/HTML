@@ -421,22 +421,39 @@ a.krafttraining:hover ~ .fitnesstext4{
 .speichern{
 	background-color: #ff6000;
 }
-/*Webseiten Bodyweight*/
-.bodyweight{
+/*Trainings Seiten*/
+.training{
 	display: inline-block;
 	width: 100%;
 	min-height: 200px;
 	max-height: 400px;
     padding-top: 20px;
-    background-image: url("Bilder/bodyweight.jpg");
-	background-position: center center;
-	background-size: cover;
 }
-.bodyweight h1{
+.training h1{
 	text-align: center;
 	color: #fff;
 	font-size: 50pt;
 	text-shadow: 2px 2px #000;
+}
+#bodywweight{
+	background-image: url(Bilder/bodyweight.png);
+	background-position: center center;
+	background-size: cover;
+}
+#lifting{
+    background-image: url(Bilder/lifting.png);
+	background-position: center center;
+	background-size: cover;
+}
+#cardio{
+	background-image: url(Bilder/cardio.png);
+	background-position: center center;
+	background-size: cover;
+}
+#run{
+    background-image: url(Bilder/run.png);
+    background-position: center center;
+    background-size: cover;
 }
 .Zwischenueberschrift{
 	display: block;
