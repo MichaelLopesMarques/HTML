@@ -421,8 +421,6 @@ a.krafttraining:hover ~ .fitnesstext4{
 .speichern{
 	background-color: #ff6000;
 }
-<<<<<<< HEAD
-
 /*Webseiten Bodyweight*/
 .bodyweight{
 	display: inline-block;
@@ -440,9 +438,6 @@ a.krafttraining:hover ~ .fitnesstext4{
 	font-size: 50pt;
 	text-shadow: 2px 2px #000;
 }
-=======
-/*Webseiten Ausdauersteigerung*/
->>>>>>> 8d706b37d3d4388170446b028156694974b34788
 .Zwischenueberschrift{
 	display: block;
 	text-align: center;
