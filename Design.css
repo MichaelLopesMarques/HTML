@@ -314,8 +314,11 @@ a.krafttraining:hover ~ .fitnesstext4{
 	position: relative;
 	width: 30%;
 	height: 600px;
-	box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.70);
-	background: #E3E1E1;
+	border: solid 1px rgb(48,108,180);
+	box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.70);
+	background: url(Bilder/bg2.png);
+	background-size: cover;
+	color: #F2F3F6;
 }
 .auswahl{
 	font-size: 25pt;
@@ -393,13 +396,17 @@ a.krafttraining:hover ~ .fitnesstext4{
 	position: relative;
 	width: 60%;
 	height: 600px;
-	background: #E3E1E1;
-	box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.70);
+	border: solid 1px rgb(48,108,180);
+	box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.70);
+	background: url(Bilder/bgr.png);
+	background-position: bottom;
+	background-size: cover;
 }
 .rechteHaelfte > p{
 	font-size: 25pt;
 	line-height: 0;
 	margin-top: 2%;
+	color: #F4F5F8;
 }
 .plan{ 
 	position: relative;
@@ -411,9 +418,10 @@ a.krafttraining:hover ~ .fitnesstext4{
 	width: 80%;
 	box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.70);
 }
-.bildanzeigen{
-	display: none;
+.speichern{
+	background-color: #ff6000;
 }
+<<<<<<< HEAD
 
 /*Webseiten Bodyweight*/
 .bodyweight{
@@ -432,6 +440,9 @@ a.krafttraining:hover ~ .fitnesstext4{
 	font-size: 50pt;
 	text-shadow: 2px 2px #000;
 }
+=======
+/*Webseiten Ausdauersteigerung*/
+>>>>>>> 8d706b37d3d4388170446b028156694974b34788
 .Zwischenueberschrift{
 	display: block;
 	text-align: center;
@@ -499,6 +510,14 @@ a.krafttraining:hover ~ .fitnesstext4{
 }
 .signup a{
 	font-size: 10pt;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #306CB4;
+  border: none;
+  border-radius: 5px;
 }
 /*Footer*/
 .footer{
