@@ -1,0 +1,67 @@
+/*Webseite: Training, MyPlans, System*/
+.Ueberschrift{
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px 5px #00063D;
+	margin-top: -3%;
+	font-weight: 600;
+	font-size: 620%;
+	font-style: normal;
+	color: #000;
+	line-height: 0%;
+}
+.linkeBilder{
+	position: relative;
+	width: 30%;
+	margin-left: 15%;
+	margin-top: 5%;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	border: solid 8px rgb(48,108,180);
+	transition: 0.3s;
+}
+.rechteBilder{
+	position: relative;
+	display: block;
+	float: right;
+	width: 30%;
+	margin-top: 5%;
+	margin-right: 15%;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	border: solid 8px rgb(48,108,180);
+	overflow: hidden;
+	transition: 0.5s;
+}
+.bildersonstiges{
+	margin-top: -1%;
+}
+a.ausdauertraining:hover + .fitnesstext1{
+	transform: scale(1.03);
+}
+.ausdauertraining:hover{
+	transform: scale(1.03) translateY(-6px);
+}
+a.fitnesssteigerung:hover ~ .fitnesstext2{
+	transform: scale(1.03);
+}
+.fitnesssteigerung:hover{
+	transform: scale(1.03) translateY(-6px);
+}
+a.muskeltraining:hover + .fitnesstext3{
+	transform: scale(1.03);
+}
+.muskeltraining:hover{
+	transform: scale(1.03) translateY(-6px);
+}
+a.krafttraining:hover ~ .fitnesstext4{
+	transform: scale(1.03);
+}
+.krafttraining:hover{
+	transform: scale(1.03) translateY(-6px);
+}
+.fitnesstext{
+	line-height: 0.2em;
+	margin-top: -0.3%;
+	background: rgb(48,108,180);
+	font-style: normal;
+	text-align: center;
+}

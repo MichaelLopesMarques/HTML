@@ -1,0 +1,113 @@
+/*Webseite: New Plan*/
+.linkeHaelfte{
+	float: left;
+	position: relative;
+	width: 30%;
+	height: 600px;
+	border: solid 1px rgb(48,108,180);
+	box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.70);
+	background: url(Bilder/bg2.png);
+	background-size: cover;
+	color: #F2F3F6;
+}
+.auswahl{
+	font-size: 25pt;
+	line-height: 0;
+	margin-top: 4%;
+}
+.linkeHaelfte > p{
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+.linkeHaelfte > label{
+	font-weight: 500;
+}
+.linkeHaelfte > input:checked{
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.30));
+}
+.radioContainer{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	padding-left: 20px;
+}
+.radioContainer input{
+	display: none;
+}
+.radioContainer .circle{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #D4D4D4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(0,0,0,0.20);
+}
+.radioContainer:hover .circle{
+	background-color: #1F4A7C;
+}
+.radioContainer input:checked + .circle{
+	background-color: #2D6CB4;
+}
+.radioContainer input:checked + .circle:after{
+	content: url("Bilder/Checked1.png");
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	border-radius: 50%;
+}
+.sendebtn{
+	position: absolute;
+	right: 10%;
+	bottom: 2%;
+	font-size: 15pt;
+	font-weight: 600;
+	background: rgb(48,108,180);
+	color: #F0F0F4;
+	width: 80%;
+	transform: skew(-10deg);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	transition: 0.3s;
+}
+.sendebtn:hover {
+	background: #1F4A7C;
+}
+
+.sendebtn > p{
+	line-height: 0;
+	transform: skew(10deg);
+}
+.rechteHaelfte{
+	float: right;
+	position: relative;
+	width: 60%;
+	height: 600px;
+	border: solid 1px rgb(48,108,180);
+	box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.70);
+	background: url(Bilder/bgr.png);
+	background-position: bottom;
+	background-size: cover;
+}
+.rechteHaelfte > p{
+	font-size: 25pt;
+	line-height: 0;
+	margin-top: 2%;
+	color: #F4F5F8;
+}
+.plan{ 
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 260px;
+	transform: translateY(-50%);
+	height: auto;
+	width: 80%;
+	box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.70);
+}
+.speichern{
+	background-color: #ff6000;
+}

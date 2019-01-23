@@ -1,0 +1,76 @@
+/*Trainings Seiten*/
+.training{
+	display: inline-block;
+	width: 100%;
+	min-height: 200px;
+	max-height: 400px;
+    padding-top: 20px;
+}
+.training h1{
+	text-align: center;
+	color: #fff;
+	font-size: 50pt;
+	text-shadow: 2px 2px #000;
+}
+#bodywweight{
+	background-image: url(Bilder/bodyweight.png);
+	background-position: center center;
+	background-size: cover;
+}
+#lifting{
+    background-image: url(Bilder/lifting.png);
+	background-position: center center;
+	background-size: cover;
+}
+#cardio{
+	background-image: url(Bilder/cardio.png);
+	background-position: center center;
+	background-size: cover;
+}
+#run{
+    background-image: url(Bilder/run.png);
+    background-position: center center;
+    background-size: cover;
+}
+.Zwischenueberschrift{
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 1% 1%;
+	margin-top: 1%;
+	width: 80%;
+	outline: solid 2px #494949;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background: #306CB4;
+	color: #F4F5F8;
+}
+.gg{
+	background: #1F4A7C;
+}
+.plus{
+	position: absolute;
+	display: block;
+	right: 1%;
+	height: 70%;
+	top: 50%;
+	transform: translateY(-50%);
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.70));
+	transition: 0.5s;
+}
+.Inhalt{
+	display: none;
+	box-sizing: border-box;
+	text-align: left;
+	background: #E3E1E1;
+	color: black;
+	outline: solid 2px #C2C2C2;
+	padding: 1%;
+	margin-top: 0.2%;
+	font-weight: 400;
+}
+.content > p{
+	width: 80%;
+	margin-left: 10%;
+	font-weight: 600;
+}
