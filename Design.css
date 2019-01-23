@@ -115,6 +115,7 @@ nav{
 #go-button{
 	display: block;
 	width: 100%;
+<<<<<<< HEAD
 	transition: 1s;
 }
 .gg2{
@@ -123,6 +124,9 @@ nav{
 }
 =======
 >>>>>>> 80b7a599e5ee1e93e00fdd7216481931241acd5e
+=======
+}
+>>>>>>> 1a75e715f19d9b8d22553052afaea497b75c6e07
 .main-banner img{
 	display: block;
 	margin-top: 100px;
