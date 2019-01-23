@@ -30,10 +30,12 @@ body {
 }
 
 /*Navigationsleiste*/
+nav{
+	display: none;
+}
 .navigation{
 	font-style: italic;
 	transform: skew(-10deg);
-	position: sticky;
 	top: 10px;
 	background : #306CB4;
 	float: right;
@@ -109,9 +111,6 @@ body {
 	background-size: cover;
 	float: center;
 }
-#go-button{
-	width: 100%;
-	}
 .main-banner img{
 	display: block;
 	margin-top: 100px;
@@ -581,4 +580,42 @@ input[type=text], input[type=email], input[type=number], input[type=password]{
 }
 .logo, .header, .login, .navigation {
 	margin-right: 1%;
+}
+
+@media screen and (max-width : 900px ){
+	.navigation{
+		display: none;
+	}
+	nav{
+		display: block;
+		margin-top: 8%;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+nav ul{
+	text-align: center;
+	list-style-type: none;
+	padding-left: 0px;
+	transform: skew(-10deg)
+}
+nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	background-color: #2D6CB4;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 600;
+	font-size: 20pt;
+}
+nav a:hover{
+	color: #FFFFFF;
+	text-shadow: 2px 2px 0px rgba(0,6,61,0.50);
+    background-color: #ff6000;
+}
+nav ul li ul{
+	display: none;
+}
+
 }
