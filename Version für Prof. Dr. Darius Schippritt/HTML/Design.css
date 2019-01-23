@@ -1,0 +1,655 @@
+body {
+	margin: 0px;
+	background: #F0F0F4;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header{
+	padding:1%;
+	width: 98%;
+}
+
+/*Logo*/
+.logo{
+	width: 20%;
+	float: left;
+	padding-bottom: 1%;
+	padding-left: 2%;
+}
+
+/*Login-Button*/
+.login{
+	width: 25%;
+	float: right;
+	padding-bottom: 1%;
+	padding-left: 1%;
+}
+
+/*Navigationsleiste*/
+nav{
+	display: none;
+}
+.navigation{
+	font-style: italic;
+	transform: skew(-10deg);
+	top: 10px;
+	background : #306CB4;
+	float: right;
+	width: 98%;
+	margin-bottom: 1%;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	z-index: 10;
+}
+.navigation ul{
+	transform: skew(20deg);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navigation li{
+	float: left;
+	display: inline-block;
+	margin-left: 70px;
+	padding: 10px;
+}
+.navigation a{
+	text-align: center;
+	padding: 10px 20px;
+	height: 40px;
+	color: #F2F3F6;
+	text-decoration: none;
+	font-size: 20px;
+}
+.navigation a:hover{
+    color: #FFFFFF;
+	text-shadow: 2px 2px 0px rgba(0,6,61,0.50);
+    background-color: #ff6000;
+}
+.navigation ul li ul{
+	margin-top: 10px;
+	transform: skew(0deg);
+	display: none;
+	position: absolute;
+	background : rgba(48,108,180,0.80);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+}
+.navigation ul li ul li{
+	margin: 0;
+	padding-top: auto;
+	float: none;
+	display: block;
+}
+.navigation ul li:hover ul{
+	display: block;
+}
+.navigation ul li ul li:hover{
+	display: block;
+	color: #000;
+	background-color: #ff6000;
+}
+
+/*Content (Hauptteil)*/
+.content{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	margin-bottom: 2%;
+	z-index: 1;
+}
+
+/*Webseite: Startseite*/
+.main-banner{
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    background-image: url(Bilder/fitness1_1.png);
+	background-position: center center;
+	background-size: cover;
+	float: center;
+}
+#go-button{
+	display: block;
+	width: 100%;
+	transition: 1s;
+}
+.gg2{
+	transform: rotate(-360deg);
+	
+}
+.main-banner img{
+	display: block;
+	margin-top: 100px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+    width: 50%;
+	max-width: 200px;
+    filter: drop-shadow(2px 2px 10px #00063D);
+    z-index: 1;
+    transition: 0.3s;
+}
+.main-banner img:hover{
+	transform: scale(1.03) rotate(-5deg);
+}
+.main-banner h1{
+    color: #F2F3F6;
+    text-align: center;
+    text-shadow: 2px 2px 10px #00063D;
+    font-size: 50pt;
+    font-style: normal;
+    line-height: 1;
+    margin-bottom: -50px;
+}
+.info1backup{
+    float: left;
+    top: 10px;
+    background : #306CB4;
+    width: 40%;
+    height: 250px;
+    margin-bottom: 1%;
+    margin-right: 50%;
+    clip-path: polygon(0% 0, 100% 0, 95% 100%, 0% 100%);
+    margin-left: 5%;
+    z-index: 1;
+    margin-top: 2%;
+}
+.info1{
+    float: left;
+    margin: 2% auto 0% auto;
+    background-color: #306CB4;
+    display: block;
+    width: 700px;
+    max-width: 100%;
+    height: 250px;
+    background-size: cover;
+    clip-path: polygon(0% 0, 95% 0, 100% 100%, 0% 100%);
+}
+#pic1{
+	background-image: url("Bilder/pic-2.png")
+}
+.info2{
+    float: right;
+    margin: 2% auto 0% auto;
+    display: block;
+    width: 700px;
+    max-width: 100%;
+    height: 250px;
+    background-image: url("Bilder/pic-2.png");
+    background-position: bottom right;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 5% 100%);
+}
+.info3{
+	float: left;
+    margin: 2% auto 0% auto;
+    display: block;
+    width: 700px;
+    max-width: 100%;
+    height: 250px;
+    background-image: url("Bilder/pic-4.jpg");
+    background-position: center left;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.fitness3{
+    position: absolute;
+    width: 40%;
+    clip-path: polygon(5% 35%, 100% 35%, 100% 100%, 0% 100%);
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-left: -42%;
+}
+.f1 h2{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 40px;
+    color: #F2F3F6;
+    text-decoration: none;
+    font-size: 40px;
+}
+.f1 p{
+    padding-right: 60px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    height: 40px;
+    color: #F2F3F6;
+    text-decoration: none;
+    font-size: 20px;
+}
+.info4{
+	float: right;
+    margin: 2% auto 0% auto;
+    background-color: #306CB4;
+    display: block;
+    width: 700px;
+    max-width: 100%;
+    height: 250px;
+    background-size: cover;
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.info4 h2{
+	text-align: right;
+}
+.info4 p{
+    text-align: right;
+	padding-right: 20px;
+    padding-left: 60px;
+}
+
+/*Webseite: Training, MyPlans, System*/
+.Ueberschrift{
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px 5px #00063D;
+	margin-top: -3%;
+	font-weight: 600;
+	font-size: 620%;
+	font-style: normal;
+	color: #000;
+	line-height: 0%;
+}
+.linkeBilder{
+	position: relative;
+	width: 30%;
+	margin-left: 15%;
+	margin-top: 5%;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	border: solid 8px rgb(48,108,180);
+	transition: 0.3s;
+}
+.rechteBilder{
+	position: relative;
+	display: block;
+	float: right;
+	width: 30%;
+	margin-top: 5%;
+	margin-right: 15%;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	border: solid 8px rgb(48,108,180);
+	overflow: hidden;
+	transition: 0.5s;
+}
+.bildersonstiges{
+	margin-top: -1%;
+}
+a.ausdauertraining:hover + .fitnesstext1{
+	transform: scale(1.03);
+}
+.ausdauertraining:hover{
+	transform: scale(1.03) translateY(-6px);
+}
+a.fitnesssteigerung:hover ~ .fitnesstext2{
+	transform: scale(1.03);
+}
+.fitnesssteigerung:hover{
+	transform: scale(1.03) translateY(-6px);
+}
+a.muskeltraining:hover + .fitnesstext3{
+	transform: scale(1.03);
+}
+.muskeltraining:hover{
+	transform: scale(1.03) translateY(-6px);
+}
+a.krafttraining:hover ~ .fitnesstext4{
+	transform: scale(1.03);
+}
+.krafttraining:hover{
+	transform: scale(1.03) translateY(-6px);
+}
+.fitnesstext{
+	line-height: 0.2em;
+	margin-top: -0.3%;
+	background: rgb(48,108,180);
+	font-style: normal;
+	text-align: center;
+}
+
+/*Webseite: New Plan*/
+.linkeHaelfte{
+	float: left;
+	position: relative;
+	width: 30%;
+	height: 600px;
+	box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.70);
+	background: #E3E1E1;
+}
+.auswahl{
+	font-size: 25pt;
+	line-height: 0;
+	margin-top: 4%;
+}
+.linkeHaelfte > p{
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+.linkeHaelfte > label{
+	font-weight: 500;
+}
+.linkeHaelfte > input:checked{
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.30));
+}
+.radioContainer{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	padding-left: 20px;
+}
+.radioContainer input{
+	display: none;
+}
+.radioContainer .circle{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #D4D4D4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(0,0,0,0.20);
+}
+.radioContainer:hover .circle{
+	background-color: #1F4A7C;
+}
+.radioContainer input:checked + .circle{
+	background-color: #2D6CB4;
+}
+.radioContainer input:checked + .circle:after{
+	content: url("Bilder/Checked1.png");
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	border-radius: 50%;
+}
+.sendebtn{
+	position: absolute;
+	right: 10%;
+	bottom: 2%;
+	font-size: 15pt;
+	font-weight: 600;
+	background: rgb(48,108,180);
+	color: #F0F0F4;
+	width: 80%;
+	transform: skew(-10deg);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.70);
+	transition: 0.3s;
+}
+.sendebtn:hover {
+	background: #1F4A7C;
+}
+
+.sendebtn > p{
+	line-height: 0;
+	transform: skew(10deg);
+}
+.rechteHaelfte{
+	float: right;
+	position: relative;
+	width: 60%;
+	height: 600px;
+	background: #E3E1E1;
+	box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.70);
+}
+.rechteHaelfte > p{
+	font-size: 25pt;
+	line-height: 0;
+	margin-top: 2%;
+}
+.plan{ 
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 260px;
+	transform: translateY(-50%);
+	height: auto;
+	width: 80%;
+	box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.70);
+}
+.bildanzeigen{
+	display: none;
+}
+
+/*Webseiten Ausdauersteigerung*/
+.Zwischenueberschrift{
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 1% 1%;
+	margin-top: 1%;
+	width: 80%;
+	outline: solid 2px #494949;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background: #306CB4;
+	color: #F4F5F8;
+}
+.gg{
+	background: #1F4A7C;
+}
+.plus{
+	position: absolute;
+	display: block;
+	right: 1%;
+	height: 70%;
+	top: 50%;
+	transform: translateY(-50%);
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.70));
+	transition: 0.5s;
+}
+.Inhalt{
+	display: none;
+	box-sizing: border-box;
+	text-align: left;
+	background: #E3E1E1;
+	color: black;
+	outline: solid 2px #C2C2C2;
+	padding: 1%;
+	margin-top: 0.2%;
+	font-weight: 400;
+}
+.content > p{
+	width: 80%;
+	margin-left: 10%;
+	font-weight: 600;
+}
+/*Seite: Über uns*/
+.about{
+	display: inline-block;
+	width: 100%;
+	min-height: 200px;
+	max-height: 400px;
+    padding-top: 20px;
+    background-image: url("Bilder/Sonstiges/Header.png");
+	background-position: center right;
+	background-size: cover;
+	clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0 100%, 2% 0);
+}
+/*Webseite: Anmeldung*/
+.signup{
+	float: left;
+	
+}
+.anmel{
+	float: left;
+}
+.anmel a{
+	font-size: 10pt;
+}
+.signup a{
+	font-size: 10pt;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #306CB4;
+  border: none;
+  border-radius: 5px;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+/*Footer*/
+.footer{
+    position: relative;
+	text-align: center;
+	padding: 5px 20px;
+    height: 15%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #F4F5F8;
+    background-color: #37404B;
+    clear: both;
+}
+.anmelden{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: #ff6000;
+    transform: skew(-10deg);
+	border: solid 1px #ff6000;
+	transition: 0.3s;
+}
+a .anmelden{
+	font-size: 12pt;
+	font-weight: 600;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+.anmelden:hover{
+	transform: skew(-10deg) scale(1.03);
+	box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.70);
+}
+.footer span{
+	display: block;
+	margin: -50px 0 0 0;
+	width: 90px;
+	height: 90px;
+	background-image: url("Bilder/Sonstiges/Social Media.png");
+	transform: scale(0.7);
+}
+.Facebook{
+	position: absolute;
+	background-position: 1px 0px;
+	left: calc(36% - 45px);
+	transition: 0.3s;
+}
+.Facebook:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
+}
+.Twitter{
+	position: absolute;
+	background-position: -170px -174px;
+	left: calc(43% - 45px);
+	transition: 0.3s;
+}
+.Twitter:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
+}
+.Instagram{
+	position: absolute;
+	background-position: -1px -87px;
+	left: calc(50% - 45px);
+	transition: 0.3s;
+}
+.Instagram:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
+}
+.Youtube{
+	position: absolute;
+	background-position: -172px 0px;
+	left: calc(57% - 45px);
+	transition: 0.3s;
+}
+.Youtube:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
+}
+.Google{
+	position: absolute;
+	background-position: -258px 0px;
+	left: calc(64% - 45px);
+	transition: 0.3s;
+}
+.Google:hover{
+	transform: scale(1.03);
+	filter: drop-shadow(0px 0px 18px rgba(0,0,0,0.70));
+}
+.fussbereich{
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	font-weight: 100;
+	font-size: 10px;
+}
+
+/*Sonstiges*/
+input[type=text], input[type=email], input[type=number], input[type=password]{
+	width: 370px;
+}
+.logo, .header, .login, .navigation {
+	margin-right: 1%;
+}
+
+@media screen and (max-width : 900px ){
+	.navigation{
+		display: none;
+	}
+	nav{
+		display: block;
+		margin-top: 8%;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	nav ul{
+		text-align: center;
+		list-style-type: none;
+		padding-left: 0px;
+		transform: skew(-10deg)
+	}
+	nav a{
+		text-decoration: none;
+		color: #FFFFFF;
+		display: block;
+		background-color: #2D6CB4;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-weight: 600;
+		font-size: 20pt;
+	}
+	nav a:hover{
+		color: #FFFFFF;
+		text-shadow: 2px 2px 0px rgba(0,6,61,0.50);
+   	 background-color: #ff6000;
+	}
+	nav ul li ul{
+		display: none;
+	}
+
+}
