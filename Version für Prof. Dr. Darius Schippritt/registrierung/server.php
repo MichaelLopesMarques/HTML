@@ -5,7 +5,7 @@
 	$errors = array();
 	
 	//Verbindung zu der Datenbank
-	$db = mysqli_connect('localhost', 'root', '', 'mytime login-daten');
+	$db = mysqli_connect('localhost', 'root', '', 'mytime');
 
 	//wenn Regestieren button geklickt wird 
 	if (isset($_POST['register'])){
@@ -43,7 +43,7 @@
 		//wenn keine Fehler dann, Daten in der Datenbank speichern
 		if (count($errors) == 0){
 			$password = md5($password); //password encrypten bevor es in die Datenbank gespeichert wird
-			$sql = "INSERT INTO users (nachname, vorname, email, plz, ort, password) 
+			$sql = "INSERT INTO benutzer (nachname, vorname, email, plz, ort, password) 
 				VALUES ('$nachname', '$vorname', '$email', '$plz', '$ort', '$password')";
 			mysqli_query($db, $sql);
 			
@@ -66,7 +66,7 @@
 		
 		if (count($errors) == 0) {
 			$password = md5($password); //Encrypt bevor das Passowort mit der Datenbank verglichen wird
-			$query = "SELECT * FROM users WHERE email = '$email' AND password = '$password'";
+			$query = "SELECT * FROM benutzer WHERE email = '$email' AND password = '$password'";
 			$result = mysqli_query($db, $query);
 			if (mysqli_num_rows($result) == 1) {
 				$_SESSION['email'] = $email;
