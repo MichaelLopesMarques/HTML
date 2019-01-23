@@ -40,19 +40,6 @@
     line-height: 1;
     margin-bottom: -50px;
 }
-.info1backup{
-    float: left;
-    top: 10px;
-    background : #306CB4;
-    width: 40%;
-    height: 250px;
-    margin-bottom: 1%;
-    margin-right: 50%;
-    clip-path: polygon(0% 0, 100% 0, 95% 100%, 0% 100%);
-    margin-left: 5%;
-    z-index: 1;
-    margin-top: 2%;
-}
 .info1{
     float: left;
     margin: 2% auto 0% auto;
