@@ -16,6 +16,7 @@
 .storybild{
 	background-image: url("Bilder/überuns.png");
 	background-size: cover;
+	background-position: center;
 	height: 300px;
 }
 
@@ -67,4 +68,17 @@ dt > span{
   color: white;
   background: #2D6CB4;
   border: none;
+}
+
+@media screen and (max-width : 907px ){
+	.kontakt{
+		width: 60%;
+		height: 300px;
+	}
+	.kontakttext{
+		float: left;
+		margin-left: 7%;
+		margin-top: 3%;
+		width: 91%;
+	}
 }
