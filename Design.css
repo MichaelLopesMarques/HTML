@@ -10,7 +10,7 @@ body {
 }
 .header{
 	padding:1%;
-	width: 98%;
+	width: 97%;
 }
 
 /*Logo*/
@@ -208,7 +208,7 @@ input[type=text], input[type=email], input[type=number], input[type=password]{
 	margin-right: 1%;
 }
 
-@media screen and (max-width : 900px ){
+@media screen and (max-width : 907px ){
 	.navigation{
 		display: none;
 	}

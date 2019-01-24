@@ -65,3 +65,28 @@ a.krafttraining:hover ~ .fitnesstext4{
 	font-style: normal;
 	text-align: center;
 }
+
+@media screen and (max-width : 907px ){
+	.linkeBilder{
+		float: left;
+		margin-left: 10%;
+		width: 80%;
+	}
+	.fitnesstext2{
+		margin-top: -66.5%;
+	}
+	.ausdauertraining{
+		margin-top: 13%;
+	}
+	.fitnesstext4{
+		margin-top: -66.5%;
+	}
+	.muskeltraining{
+		margin-top: 13%;
+	}
+	.rechteBilder{
+		float: left;
+		margin-left: 10%;
+		width: 80%;
+	}
+}
