@@ -2,8 +2,7 @@
 .training{
 	display: inline-block;
 	width: 100%;
-	min-height: 200px;
-	max-height: 400px;
+	height: 200px;
     padding-top: 20px;
 }
 .training h1{
