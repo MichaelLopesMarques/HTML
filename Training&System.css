@@ -38,25 +38,25 @@ a.ausdauertraining:hover + .fitnesstext1{
 	transform: scale(1.03);
 }
 .ausdauertraining:hover{
-	transform: scale(1.03) translateY(-6px);
+	transform: scale(1.03) translateY(-3px);
 }
 a.fitnesssteigerung:hover ~ .fitnesstext2{
 	transform: scale(1.03);
 }
 .fitnesssteigerung:hover{
-	transform: scale(1.03) translateY(-6px);
+	transform: scale(1.03) translateY(-3px);
 }
 a.muskeltraining:hover + .fitnesstext3{
 	transform: scale(1.03);
 }
 .muskeltraining:hover{
-	transform: scale(1.03) translateY(-6px);
+	transform: scale(1.03) translateY(-3px);
 }
 a.krafttraining:hover ~ .fitnesstext4{
 	transform: scale(1.03);
 }
 .krafttraining:hover{
-	transform: scale(1.03) translateY(-6px);
+	transform: scale(1.03) translateY(-3px);
 }
 .fitnesstext{
 	line-height: 0.2em;
@@ -64,6 +64,9 @@ a.krafttraining:hover ~ .fitnesstext4{
 	background: rgb(48,108,180);
 	font-style: normal;
 	text-align: center;
+}
+.textresposiv{
+	display: none;
 }
 
 @media screen and (max-width : 907px ){
@@ -73,13 +76,10 @@ a.krafttraining:hover ~ .fitnesstext4{
 		width: 80%;
 	}
 	.fitnesstext2{
-		margin-top: -66.5%;
+		top: -66.5%;
 	}
 	.ausdauertraining{
 		margin-top: 13%;
-	}
-	.fitnesstext4{
-		margin-top: -66.5%;
 	}
 	.muskeltraining{
 		margin-top: 13%;
@@ -88,5 +88,11 @@ a.krafttraining:hover ~ .fitnesstext4{
 		float: left;
 		margin-left: 10%;
 		width: 80%;
+	}
+	.textresposiv{
+		display: block;
+	}
+	.notextresponsive{
+		display: none;
 	}
 }
