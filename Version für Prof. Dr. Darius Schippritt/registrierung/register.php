@@ -3,9 +3,7 @@
 <html>
 <head>
 	<title>Registrierung</title>
-	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../HTML/Design.css" type="text/css">
-	<link rel="icon" type="image/png" href="../HTML/Bilder/Icon.png">
 </head>
 <body>
 	<header class="header">
@@ -31,18 +29,13 @@
 			<div class="navigation">
 				<ul>
 					<li><a href="../HTML/New Plan.html">New Plan</a></li>
-					<li><a href="../HTML/My Plans.html">My Plans</a>
-						<ul>
-							<li><a href="../HTML/My Plans/changePlan.html">Plan ändern</a></li>
-							<li><a href="../HTML/My Plans/Planloeschen.html">Plan löschen</a></li>
-						</ul>
-					</li>
+					<li><a href="../HTML/My Plans.html">My Plans</a></li>
 					<li><a href="../HTML/Training.html">Training</a>
 						<ul>
-							<li><a href="../HTML/Training/Fettreduzierung.html">Fettreduzierung</a></li>
-							<li><a href="../HTML/Training/Ausdauersteigerung.html">Ausdauersteigerung</a></li>
-							<li><a href="../HTML/Training/Kraftausbau.html">Kraftausbau</a></li>
-							<li><a href="../HTML/Training/Muskelaufbau.html">Muskelaufbau</a></li>
+							<li><a href="../HTML/Training/Weightlifting.html">Weightlifting</a></li>
+							<li><a href="../HTML/Training/Bodyweight.html">Bodyweight</a></li>
+							<li><a href="../HTML/Training/Cardio.html">Cardio</a></li>
+							<li><a href="../HTML/Training/Running.html">Running</a></li>
 						</ul>
 					</li>
 					<li><a href="../HTML/System.html">System</a>
