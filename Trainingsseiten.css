@@ -86,7 +86,7 @@
 }
 .info2{
     float: right;
-    background-position: top right;
+    background-position: center right;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 5% 100%);
 }
 .info3{
@@ -114,6 +114,14 @@
 }
 .c3{
 	background-image: url("Bilder/mountain-climbers.jpg");
+	background-position: bottom;
+}
+.r1{
+	background-image: url("Bilder/locker.jpg");
+	background-position: top;
+}
+.r2{
+	background-image: url("Bilder/sprint.jpg");
 }
 .f1 h2{
     padding-top: 10px;
