@@ -1,0 +1,202 @@
+/*Trainings Seiten*/
+.training{
+	display: inline-block;
+	width: 100%;
+	height: 200px;
+    padding-top: 20px;
+}
+.training h1{
+	text-align: center;
+	color: #fff;
+	font-size: 50pt;
+	text-shadow: 2px 2px #000;
+}
+#bodyweight{
+	background-image: url(Bilder/bodyweight.png);
+	background-position: center center;
+	background-size: cover;
+}
+#lifting{
+    background-image: url(Bilder/lifting.png);
+	background-position: center center;
+	background-size: cover;
+}
+#cardio{
+	background-image: url(Bilder/cardio.png);
+	background-position: center center;
+	background-size: cover;
+}
+#run{
+    background-image: url(Bilder/run.png);
+    background-position: center center;
+    background-size: cover;
+}
+.Zwischenueberschrift{
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 1% 1%;
+	margin-top: 1%;
+	width: 80%;
+	outline: solid 2px #494949;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background: #306CB4;
+	color: #F4F5F8;
+}
+.gg{
+	background: #1F4A7C;
+}
+.plus{
+	position: absolute;
+	display: block;
+	right: 1%;
+	height: 70%;
+	top: 50%;
+	transform: translateY(-50%);
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.70));
+	transition: 0.5s;
+}
+.Inhalt{
+	display: none;
+	box-sizing: border-box;
+	text-align: left;
+	background: #E3E1E1;
+	color: black;
+	outline: solid 2px #C2C2C2;
+	padding: 1%;
+	margin-top: 0.2%;
+	font-weight: 400;
+}
+.content > p{
+	width: 80%;
+	margin-left: 10%;
+	font-weight: 600;
+}
+.info1{
+    float: left;
+    margin: 2% auto 0% auto;
+    background-color: #306CB4;
+    display: block;
+    width: 45%;
+    max-width: 100%;
+    height: 300px;
+    background-size: cover;
+    clip-path: polygon(0% 0, 95% 0, 100% 100%, 0% 100%);
+}
+.info2{
+    float: right;
+    background-position: center right;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 5% 100%);
+}
+.info3{
+    background-position: center left;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.b1{
+	background-image: url("Bilder/pull.jpg");
+}
+.b2{
+	background-image: url("Bilder/push.jpg");
+}
+.b3{
+	background-image: url("Bilder/Squat.jpg");
+
+}
+.b4{
+	background-image: url("Bilder/crunch.jpg");
+}
+.c1{
+	background-image: url("Bilder/jumping-jacks.jpg");
+}
+.c2{
+	background-image: url("Bilder/push.jpg");
+}
+.c3{
+	background-image: url("Bilder/mountain-climbers.jpg");
+	background-position: bottom;
+}
+.r1{
+	background-image: url("Bilder/locker.jpg");
+	background-position: top;
+}
+.r2{
+	background-image: url("Bilder/sprint.jpg");
+}
+.w1{
+	background-image: url("Bilder/Leg-Press.png");
+}
+.w2{
+	background-image: url("Bilder/LatPulldown.jpg");
+}
+.w3{
+	background-image: url("Bilder/Tricep-Pushdown.jpg");
+
+}
+.w4{
+	background-image: url("Bilder/Ab-Wheel.jpg");
+}
+.f1 h2{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 40px;
+    color: #F2F3F6;
+    text-decoration: none;
+	font-size: 2.5em;
+}
+.f1 p{
+    padding-right: 60px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    height: 40px;
+    color: #F2F3F6;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.info4{
+	float: right;
+  	background-size: cover;
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.info4 h2{
+	text-align: right;
+}
+.info4 p{
+    text-align: right;
+	padding-right: 20px;
+    padding-left: 60px;
+}
+
+@media screen and (max-width : 907px ){
+	.training h1{
+		margin-top: 8%;
+		font-size: 35pt;
+	}
+	.Zwischenueberschrift{
+		margin-top: 8%;
+		width: 100%;
+		height: 50px;
+	}
+	.Inhalt{
+		margin-top: 0%;
+		height: auto;
+	}
+	.info1{
+   		width: 100%;
+	}
+	.f1 p{
+		font-size: 1.1em;
+	}
+	.f1 h2{
+		font-size: 2.0em;
+	}
+	@media screen and (max-width : 1200px )and (min-width : 907px ){
+	.f1 p{
+		font-size: 1em;
+	}
+	.f1 h2{
+		font-size: 2.25em;
+	}
+}
+}

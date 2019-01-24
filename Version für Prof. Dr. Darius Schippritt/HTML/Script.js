@@ -31,18 +31,20 @@ $(document).ready(function(){
 	var ziffer=1;
 
 	$('#about').hide();
-	$('#about').show("slide", { direction: "left" }, 2000);
-	
 	$('.main-banner > h1').hide();
-	$('.main-banner > h1').fadeIn(1000);
-	
 	$('#go-button > a').hide();
-	$('#go-button > a').delay(800);
-	$('#go-button > a').fadeIn(1000);
-	
 	window.setTimeout(function() {
-		$('#go-button').toggleClass("gg2");
-	}, 800);
+		$('#about').show("slide", { direction: "left" }, 2000);
+	
+		$('.main-banner > h1').fadeIn(1000);
+	
+		$('#go-button > a').delay(800);
+		$('#go-button > a').fadeIn(1000);
+		
+		window.setTimeout(function() {
+			$('#go-button').toggleClass("rotate");
+		}, 800);
+	}, 300);
 	
 	$("#speichern").click(function(){
 		var z=$("#plan").attr("src");
@@ -131,62 +133,6 @@ $(document).ready(function(){
 			$("#plus3").attr("src","../Bilder/Sonstiges/pluszeichen.png");
 		}else{
 			$("#plus3").attr("src","../Bilder/Sonstiges/minuszeichen.png");
-		}
-	});
-	
-	var ausgeklappt4 = false;
-	$("#Zwischenueberschrift4").click(function(){
-		$("#inhalt4").slideToggle("slow");
-		$("#Zwischenueberschrift4").toggleClass("gg", 500);
-		if(ausgeklappt4 == false){
-			ausgeklappt4 = true;
-			$("#plus4").attr("src","../Bilder/Sonstiges/minuszeichen.png");
-		}else{
-			ausgeklappt4 = false;
-			$("#plus4").attr("src","../Bilder/Sonstiges/pluszeichen.png");
-		}
-	return ausgeklappt4;
-	});
-	$("#plus4").mouseover(function(){
-		if(ausgeklappt4 == false){
-			$("#plus4").attr("src","../Bilder/Sonstiges/pluszeichen2.png");
-		}else{
-			$("#plus4").attr("src","../Bilder/Sonstiges/minuszeichen2.png");
-		}
-	});
-	$("#plus4").mouseout(function(){
-		if(ausgeklappt4 == false){
-			$("#plus4").attr("src","../Bilder/Sonstiges/pluszeichen.png");
-		}else{
-			$("#plus4").attr("src","../Bilder/Sonstiges/minuszeichen.png");
-		}
-	});
-	
-	var ausgeklappt5 = false;
-	$("#Zwischenueberschrift5").click(function(){
-		$("#inhalt5").slideToggle("slow");
-		$("#Zwischenueberschrift5").toggleClass("gg", 500);
-		if(ausgeklappt5 == false){
-			ausgeklappt5 = true;
-			$("#plus5").attr("src","../Bilder/Sonstiges/minuszeichen.png");
-		}else{
-			ausgeklappt5 = false;
-			$("#plus5").attr("src","../Bilder/Sonstiges/pluszeichen.png");
-		}
-	return ausgeklappt5;
-	});
-	$("#plus5").mouseover(function(){
-		if(ausgeklappt5 == false){
-			$("#plus5").attr("src","../Bilder/Sonstiges/pluszeichen2.png");
-		}else{
-			$("#plus5").attr("src","../Bilder/Sonstiges/minuszeichen2.png");
-		}
-	});
-	$("#plus5").mouseout(function(){
-		if(ausgeklappt5 == false){
-			$("#plus5").attr("src","../Bilder/Sonstiges/pluszeichen.png");
-		}else{
-			$("#plus5").attr("src","../Bilder/Sonstiges/minuszeichen.png");
 		}
 	});
 });

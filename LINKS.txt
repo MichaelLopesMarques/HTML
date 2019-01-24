@@ -1,7 +1,3 @@
 PHP: https://codewithawa.com/posts/complete-user-registration-system-using-php-and-mysql-database
 
-Traningspläne
-https://www.ikkbb.de/gesundheit/fitness/ausdauertraining/uebungen-fuer-das-ausdauertraining.html
-https://www.t-online.de/gesundheit/fitness/id_61987910/muskelaufbau-zu-hause-uebungen-ganz-ohne-fitnessstudio.html
-https://www.hammer.de/fitnesswissen/workouts/hanteltraining-uebungen
 
