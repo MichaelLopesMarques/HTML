@@ -93,17 +93,17 @@
     background-position: center left;
     clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
 }
-.bw1{
+.b1{
 	background-image: url("Bilder/pull.jpg");
 }
-.bw2{
+.b2{
 	background-image: url("Bilder/push.jpg");
 }
-.bw3{
+.b3{
 	background-image: url("Bilder/Squat.jpg");
 
 }
-.bw4{
+.b4{
 	background-image: url("Bilder/crunch.jpg");
 }
 .c1{
@@ -122,6 +122,19 @@
 }
 .r2{
 	background-image: url("Bilder/sprint.jpg");
+}
+.w1{
+	background-image: url("Bilder/Leg-Press.png");
+}
+.w2{
+	background-image: url("Bilder/LatPulldown.jpg");
+}
+.w3{
+	background-image: url("Bilder/Tricep-Pushdown.jpg");
+
+}
+.w4{
+	background-image: url("Bilder/Ab-Wheel.jpg");
 }
 .f1 h2{
     padding-top: 10px;
