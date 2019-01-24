@@ -1,14 +1,31 @@
 /*Webseite: Training, MyPlans, System*/
 .Ueberschrift{
 	width: 100%;
+	height: 250px;
+    padding-top: 20px;
+	margin-bottom: 30px;
+}
+.Ueberschrift h3{
 	text-align: center;
-	text-shadow: 2px 2px 5px #00063D;
-	margin-top: -3%;
-	font-weight: 600;
-	font-size: 620%;
-	font-style: normal;
-	color: #000;
-	line-height: 0%;
+	color: #FFFFFF;
+	font-size: 50pt;
+	text-shadow: 2px 2px #000;
+}
+#Training{
+	display: inline-block;
+	background-image: url("../HTML/Bilder/Training.png");
+	background-position: center center;
+	background-size: cover;
+}
+#System{
+	display: inline-block;
+	background-image: url("../HTML/Bilder/System.png");
+	background-position: center center;
+	background-size: cover;
+}
+h2{
+	color: #FFFFFF;
+	text-shadow: 2px 2px rgba(0,0,0,0.50);
 }
 .linkeBilder{
 	position: relative;
