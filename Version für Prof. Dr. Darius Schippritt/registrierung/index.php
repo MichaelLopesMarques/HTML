@@ -10,7 +10,9 @@
 <html>
 <head>
 	<title>Profil</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../HTML/Design.css" type="text/css">
+	<link rel="icon" type="image/png" href="../HTML/Bilder/Icon.png">
 </head>
 <body>
 	<header class="header">
